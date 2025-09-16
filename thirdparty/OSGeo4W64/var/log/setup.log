@@ -1,0 +1,230 @@
+2025/08/05 15:55:05 Starting OSGeo4W install, version 2.579
+2025/08/05 15:55:05 using locales .936
+2025/08/05 15:55:05 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2025/08/05 15:55:05 Current Directory: C:\Users\54588\AppData\Local\Temp
+2025/08/05 15:55:05 Root Directory: C:\OSGeo4W
+2025/08/05 15:57:28 source: network install
+2025/08/05 15:57:54 root: C:\OSGeo4W64
+2025/08/05 15:58:02 Selected local directory: C:\Users\54588\AppData\Local\Temp
+2025/08/05 15:58:02 Menu name: OSGeo4W
+2025/08/05 15:58:07 net: Preconfig
+2025/08/05 16:02:55 site: https://download.osgeo.org/osgeo4w/v2/
+2025/08/05 16:02:56 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2025/08/05 16:02:56 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2025/08/05 16:03:27 note: Nothing needed to be installed
+2025/08/05 16:03:27 Ending OSGeo4W install
+2025/08/05 16:05:00 Starting OSGeo4W install, version 2.579
+2025/08/05 16:05:00 using locales .936
+2025/08/05 16:05:00 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2025/08/05 16:05:00 Current Directory: C:\Users\54588\AppData\Local\Temp
+2025/08/05 16:05:00 Root Directory: C:\OSGeo4W
+2025/08/05 16:05:03 source: network install
+2025/08/05 16:05:11 root: C:\OSGeo4W64
+2025/08/05 16:05:33 Selected local directory: C:\Users\54588\AppData\Local\Temp
+2025/08/05 16:05:33 Menu name: OSGeo4W
+2025/08/05 16:05:40 net: Preconfig
+2025/08/05 16:05:55 site: http://gwmodel.whu.edu.cn/
+2025/08/05 16:06:00 HTTP status 502 fetching http://gwmodel.whu.edu.cn/x86_64/setup.ini.bz2
+2025/08/05 16:06:05 HTTP status 502 fetching http://gwmodel.whu.edu.cn/x86_64/setup.ini
+2025/08/05 16:06:05 mbox note: Unable to get setup.ini from <http://gwmodel.whu.edu.cn/>
+2025/08/05 16:06:14 site: https://ftp.osuosl.org/pub/osgeo/download/osgeo4w/v2/
+2025/08/05 16:06:18 mbox yesno: This setup.ini is older than the one you used last time you installed OSGeo4W.  Proceed anyway?
+2025/08/05 16:06:57 site: https://www.norbit.de/osgeo4w/v2/
+2025/08/05 16:07:04 note: Nothing needed to be installed
+2025/08/05 16:07:04 Ending OSGeo4W install
+2025/08/05 16:10:46 Starting OSGeo4W install, version 2.579
+2025/08/05 16:10:46 using locales .936
+2025/08/05 16:10:46 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2025/08/05 16:10:46 Current Directory: C:\Users\54588\AppData\Local\Temp
+2025/08/05 16:10:46 Root Directory: C:\OSGeo4W
+2025/08/05 16:10:51 source: network install
+2025/08/05 16:10:58 root: C:\OSGeo4W64
+2025/08/05 16:11:00 Selected local directory: C:\Users\54588\AppData\Local\Temp
+2025/08/05 16:11:00 Menu name: OSGeo4W
+2025/08/05 16:11:02 net: Preconfig
+2025/08/05 16:11:10 site: https://ftp.osuosl.org/pub/osgeo/download/osgeo4w/v2/
+2025/08/05 16:11:11 mbox yesno: This setup.ini is older than the one you used last time you installed OSGeo4W.  Proceed anyway?
+2025/08/05 16:12:57 Adding required dependency api-ms-win-core-path-HACK: Selecting version 0.0.1-7 for installation.
+2025/08/05 16:12:57 Adding required dependency arrow-cpp: Selecting version 19.0.1-1 for installation.
+2025/08/05 16:12:57 Adding required dependency base: Selecting version 1.0.0-22 for installation.
+2025/08/05 16:12:57 Adding required dependency brotli: Selecting version 1.1.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency c-blosc: Selecting version 1.21.6-3 for installation.
+2025/08/05 16:12:57 Adding required dependency cairo: Selecting version 1.17.2-9 for installation.
+2025/08/05 16:12:57 Adding required dependency curl: Selecting version 8.15.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency curl-ca-bundle: Selecting version 8.15.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency expat: Selecting version 2.6.4-1 for installation.
+2025/08/05 16:12:57 Adding required dependency freetype: Selecting version 2.13.3-2 for installation.
+2025/08/05 16:12:57 Adding required dependency freexl: Selecting version 2.0.0-4 for installation.
+2025/08/05 16:12:57 Adding required dependency gdal311-runtime: Selecting version 3.11.3-1 for installation.
+2025/08/05 16:12:57 Adding required dependency geos: Selecting version 3.13.1-2 for installation.
+2025/08/05 16:12:57 Adding required dependency hdf4: Selecting version 4.3.0-2 for installation.
+2025/08/05 16:12:57 Adding required dependency hdf5: Selecting version 1.14.3-1 for installation.
+2025/08/05 16:12:57 Adding required dependency laszip: Selecting version 3.4.3-4 for installation.
+2025/08/05 16:12:57 Adding required dependency laszip-devel: Selecting version 3.4.3-4 for installation.
+2025/08/05 16:12:57 Adding required dependency lerc: Selecting version 4.0.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency libarchive: Selecting version 3.7.8-1 for installation.
+2025/08/05 16:12:57 Adding required dependency libgeotiff: Selecting version 1.7.3-3 for installation.
+2025/08/05 16:12:57 Adding required dependency libiconv: Selecting version 1.17-1 for installation.
+2025/08/05 16:12:57 Adding required dependency libjpeg-turbo: Selecting version 3.0.4-1 for installation.
+2025/08/05 16:12:57 Adding required dependency libjxl: Selecting version 0.11.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency liblas: Selecting version 1.8.1-22 for installation.
+2025/08/05 16:12:57 Adding required dependency liblas-devel: Selecting version 1.8.1-22 for installation.
+2025/08/05 16:12:57 Adding required dependency libmysql: Selecting version 8.2.0-2 for installation.
+2025/08/05 16:12:57 Adding required dependency libpng: Selecting version 1.6.43-1 for installation.
+2025/08/05 16:12:57 Adding required dependency libpq: Selecting version 17.3-1 for installation.
+2025/08/05 16:12:57 Adding required dependency librttopo: Selecting version 1.1.0-18 for installation.
+2025/08/05 16:12:57 Adding required dependency libspatialite: Selecting version 5.1.0-9 for installation.
+2025/08/05 16:12:57 Adding required dependency libtiff: Selecting version 4.7.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency libwebp: Selecting version 1.4.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency libxml2: Selecting version 2.12.5-1 for installation.
+2025/08/05 16:12:57 Adding required dependency lz4: Selecting version 1.9.4-1 for installation.
+2025/08/05 16:12:57 Adding required dependency msodbcsql: Selecting version 18.0-2 for installation.
+2025/08/05 16:12:57 Adding required dependency msvcrt2019: Selecting version 14.2-2 for installation.
+2025/08/05 16:12:57 Adding required dependency netcdf: Selecting version 4.9.2-7 for installation.
+2025/08/05 16:12:57 Adding required dependency ogdi: Selecting version 4.1.1-2 for installation.
+2025/08/05 16:12:57 Adding required dependency opencl: Selecting version 2023.12.14-1 for installation.
+2025/08/05 16:12:57 Adding required dependency openjpeg: Selecting version 2.5.3-1 for installation.
+2025/08/05 16:12:57 Adding required dependency openssl: Selecting version 3.0.16-1 for installation.
+2025/08/05 16:12:57 Adding required dependency poppler: Selecting version 25.02.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency proj-data: Selecting version 1.22-1 for installation.
+2025/08/05 16:12:57 Adding required dependency proj-runtime-data: Selecting version 9.6.2-1 for installation.
+2025/08/05 16:12:57 Adding required dependency proj9-runtime: Selecting version 9.6.2-1 for installation.
+2025/08/05 16:12:57 Adding required dependency python3-core: Selecting version 3.12.11-1 for installation.
+2025/08/05 16:12:57 Adding required dependency python3-numpy: Selecting version 1.26.4-1 for installation.
+2025/08/05 16:12:57 Adding required dependency setup: Selecting version 1.1.2-11 for installation.
+2025/08/05 16:12:57 Adding required dependency sqlite3: Selecting version 3.46.1-1 for installation.
+2025/08/05 16:12:57 Adding required dependency szip: Selecting version 2.1.1-4 for installation.
+2025/08/05 16:12:57 Adding required dependency thrift: Selecting version 0.21.0-1 for installation.
+2025/08/05 16:12:57 Adding required dependency xerces-c: Selecting version 3.2.5-1 for installation.
+2025/08/05 16:12:57 Adding required dependency xz: Selecting version 5.4.7-1 for installation.
+2025/08/05 16:12:57 Adding required dependency zlib: Selecting version 1.3.1-1 for installation.
+2025/08/05 16:12:57 Adding required dependency zstd: Selecting version 1.5.7-1 for installation.
+2025/08/05 16:12:58 License file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/szip/szip-devel/szip-devel-2.1.1-4.txt successfully loaded.
+2025/08/05 16:13:07 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/api-ms-win-core-path-HACK/api-ms-win-core-path-HACK-0.0.1-7.tar.bz2
+2025/08/05 16:13:19 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/arrow-cpp/arrow-cpp-19.0.1-1.tar.bz2
+2025/08/05 16:13:20 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/base/base-1.0.0-22.tar.bz2
+2025/08/05 16:13:21 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/brotli/brotli-1.1.0-1.tar.bz2
+2025/08/05 16:13:21 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/c-blosc/c-blosc-1.21.6-3.tar.bz2
+2025/08/05 16:13:22 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/cairo/cairo-1.17.2-9.tar.bz2
+2025/08/05 16:13:22 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/curl/curl-8.15.0-1.tar.bz2
+2025/08/05 16:13:22 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/curl/curl-ca-bundle/curl-ca-bundle-8.15.0-1.tar.bz2
+2025/08/05 16:13:23 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/expat/expat-2.6.4-1.tar.bz2
+2025/08/05 16:13:23 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/freetype/freetype-2.13.3-2.tar.bz2
+2025/08/05 16:13:23 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/freexl/freexl-2.0.0-4.tar.bz2
+2025/08/05 16:13:26 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/gdal/gdal311-runtime/gdal311-runtime-3.11.3-1.tar.bz2
+2025/08/05 16:13:26 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/geos/geos-3.13.1-2.tar.bz2
+2025/08/05 16:13:27 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/hdf4/hdf4-4.3.0-2.tar.bz2
+2025/08/05 16:13:27 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/hdf5/hdf5-1.14.3-1.tar.bz2
+2025/08/05 16:13:28 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/laszip/laszip-3.4.3-4.tar.bz2
+2025/08/05 16:13:28 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/laszip/laszip-devel/laszip-devel-3.4.3-4.tar.bz2
+2025/08/05 16:13:28 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/lerc/lerc-4.0.0-1.tar.bz2
+2025/08/05 16:13:29 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libarchive/libarchive-3.7.8-1.tar.bz2
+2025/08/05 16:13:29 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libgeotiff/libgeotiff-1.7.3-3.tar.bz2
+2025/08/05 16:13:30 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libiconv/libiconv-1.17-1.tar.bz2
+2025/08/05 16:13:31 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libjpeg-turbo/libjpeg-turbo-3.0.4-1.tar.bz2
+2025/08/05 16:13:33 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libjxl/libjxl-0.11.0-1.tar.bz2
+2025/08/05 16:13:34 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/liblas/liblas-1.8.1-22.tar.bz2
+2025/08/05 16:13:35 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/liblas/liblas-devel/liblas-devel-1.8.1-22.tar.bz2
+2025/08/05 16:13:37 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libmysql/libmysql-8.2.0-2.tar.bz2
+2025/08/05 16:13:37 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libpng/libpng-1.6.43-1.tar.bz2
+2025/08/05 16:13:38 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libpq/libpq-17.3-1.tar.bz2
+2025/08/05 16:13:39 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/librttopo/librttopo-1.1.0-18.tar.bz2
+2025/08/05 16:13:42 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libspatialite/libspatialite-5.1.0-9.tar.bz2
+2025/08/05 16:13:42 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libtiff/libtiff-4.7.0-1.tar.bz2
+2025/08/05 16:13:43 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libwebp/libwebp-1.4.0-1.tar.bz2
+2025/08/05 16:13:43 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libxml2/libxml2-2.12.5-1.tar.bz2
+2025/08/05 16:13:43 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/lz4/lz4-1.9.4-1.tar.bz2
+2025/08/05 16:13:45 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/msodbcsql/msodbcsql-18.0-2.tar.bz2
+2025/08/05 16:13:45 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/msvcrt2019/msvcrt2019-14.2-2.tar.bz2
+2025/08/05 16:13:46 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/netcdf/netcdf-4.9.2-7.tar.bz2
+2025/08/05 16:13:46 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/ogdi/ogdi-4.1.1-2.tar.bz2
+2025/08/05 16:13:46 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/opencl/opencl-2023.12.14-1.tar.bz2
+2025/08/05 16:13:47 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/openjpeg/openjpeg-2.5.3-1.tar.bz2
+2025/08/05 16:13:48 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/openssl/openssl-3.0.16-1.tar.bz2
+2025/08/05 16:13:48 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/pdal/pdal-2.9.0-3.tar.bz2
+2025/08/05 16:13:50 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/pdal/pdal-devel/pdal-devel-2.9.0-3.tar.bz2
+2025/08/05 16:13:52 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/pdal/pdal-libs/pdal-libs-2.9.0-3.tar.bz2
+2025/08/05 16:13:53 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/poppler/poppler-25.02.0-1.tar.bz2
+2025/08/05 16:15:49 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/proj/proj-data/proj-data-1.22-1.tar.bz2
+2025/08/05 16:15:49 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/proj/proj-runtime-data/proj-runtime-data-9.6.2-1.tar.bz2
+2025/08/05 16:15:50 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/proj/proj9-runtime/proj9-runtime-9.6.2-1.tar.bz2
+2025/08/05 16:15:51 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/python3/python3-core/python3-core-3.12.11-1.tar.bz2
+2025/08/05 16:15:52 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/python3/python3-numpy/python3-numpy-1.26.4-1.tar.bz2
+2025/08/05 16:15:52 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/python3/python3-pdal/python3-pdal-3.4.5-3.tar.bz2
+2025/08/05 16:15:53 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/python3/python3-pdal-plugins/python3-pdal-plugins-1.6.5-1.tar.bz2
+2025/08/05 16:15:53 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/setup/setup-1.1.2-11.tar.bz2
+2025/08/05 16:15:54 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/sqlite3/sqlite3-3.46.1-1.tar.bz2
+2025/08/05 16:15:54 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/szip/szip-2.1.1-4.tar.bz2
+2025/08/05 16:15:55 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/thrift/thrift-0.21.0-1.tar.bz2
+2025/08/05 16:15:55 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/xerces-c/xerces-c-3.2.5-1.tar.bz2
+2025/08/05 16:15:55 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/xz/xz-5.4.7-1.tar.bz2
+2025/08/05 16:15:56 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/zlib/zlib-1.3.1-1.tar.bz2
+2025/08/05 16:15:56 Downloaded C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/zstd/zstd-1.5.7-1.tar.bz2
+2025/08/05 16:16:01 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/api-ms-win-core-path-HACK/api-ms-win-core-path-HACK-0.0.1-7.tar.bz2
+2025/08/05 16:16:01 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/arrow-cpp/arrow-cpp-19.0.1-1.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/base/base-1.0.0-22.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/brotli/brotli-1.1.0-1.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/c-blosc/c-blosc-1.21.6-3.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/cairo/cairo-1.17.2-9.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/curl/curl-8.15.0-1.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/curl/curl-ca-bundle/curl-ca-bundle-8.15.0-1.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/expat/expat-2.6.4-1.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/freetype/freetype-2.13.3-2.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/freexl/freexl-2.0.0-4.tar.bz2
+2025/08/05 16:16:02 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/gdal/gdal311-runtime/gdal311-runtime-3.11.3-1.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/geos/geos-3.13.1-2.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/hdf4/hdf4-4.3.0-2.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/hdf5/hdf5-1.14.3-1.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/laszip/laszip-3.4.3-4.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/laszip/laszip-devel/laszip-devel-3.4.3-4.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/lerc/lerc-4.0.0-1.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libarchive/libarchive-3.7.8-1.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libgeotiff/libgeotiff-1.7.3-3.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libiconv/libiconv-1.17-1.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libjpeg-turbo/libjpeg-turbo-3.0.4-1.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libjxl/libjxl-0.11.0-1.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/liblas/liblas-1.8.1-22.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/liblas/liblas-devel/liblas-devel-1.8.1-22.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libmysql/libmysql-8.2.0-2.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libpng/libpng-1.6.43-1.tar.bz2
+2025/08/05 16:16:03 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libpq/libpq-17.3-1.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/librttopo/librttopo-1.1.0-18.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libspatialite/libspatialite-5.1.0-9.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libtiff/libtiff-4.7.0-1.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libwebp/libwebp-1.4.0-1.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/libxml2/libxml2-2.12.5-1.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/lz4/lz4-1.9.4-1.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/msodbcsql/msodbcsql-18.0-2.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/msvcrt2019/msvcrt2019-14.2-2.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/netcdf/netcdf-4.9.2-7.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/ogdi/ogdi-4.1.1-2.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/opencl/opencl-2023.12.14-1.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/openjpeg/openjpeg-2.5.3-1.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/openssl/openssl-3.0.16-1.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/pdal/pdal-2.9.0-3.tar.bz2
+2025/08/05 16:16:04 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/pdal/pdal-devel/pdal-devel-2.9.0-3.tar.bz2
+2025/08/05 16:16:05 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/pdal/pdal-libs/pdal-libs-2.9.0-3.tar.bz2
+2025/08/05 16:16:05 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/poppler/poppler-25.02.0-1.tar.bz2
+2025/08/05 16:16:05 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/proj/proj-data/proj-data-1.22-1.tar.bz2
+2025/08/05 16:16:37 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/proj/proj-runtime-data/proj-runtime-data-9.6.2-1.tar.bz2
+2025/08/05 16:16:37 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/proj/proj9-runtime/proj9-runtime-9.6.2-1.tar.bz2
+2025/08/05 16:16:38 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/python3/python3-core/python3-core-3.12.11-1.tar.bz2
+2025/08/05 16:16:39 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/python3/python3-numpy/python3-numpy-1.26.4-1.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/python3/python3-pdal/python3-pdal-3.4.5-3.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/python3/python3-pdal-plugins/python3-pdal-plugins-1.6.5-1.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/setup/setup-1.1.2-11.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/sqlite3/sqlite3-3.46.1-1.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/szip/szip-2.1.1-4.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/thrift/thrift-0.21.0-1.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/xerces-c/xerces-c-3.2.5-1.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/xz/xz-5.4.7-1.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/zlib/zlib-1.3.1-1.tar.bz2
+2025/08/05 16:16:41 Extracting from file://C:\Users\54588\AppData\Local\Temp/https%3a%2f%2fftp.osuosl.org%2fpub%2fosgeo%2fdownload%2fosgeo4w%2fv2%2f/x86_64/release/zstd/zstd-1.5.7-1.tar.bz2
+2025/08/05 16:16:41 running: cmd.exe /c "C:\OSGeo4W64\\etc\postinstall\setup.bat"
+2025/08/05 16:16:44 running: cmd.exe /c "C:\OSGeo4W64\\etc\postinstall\base.bat"
+2025/08/05 16:16:45 running: cmd.exe /c "C:\OSGeo4W64\\etc\postinstall\api-ms-win-core-path-HACK.bat"
+2025/08/05 16:16:45 running: cmd.exe /c "C:\OSGeo4W64\\etc\postinstall\openssl.bat"
+2025/08/05 16:16:47 running: cmd.exe /c "C:\OSGeo4W64\\etc\postinstall\opencl.bat"
+2025/08/05 16:16:48 running: cmd.exe /c "C:\OSGeo4W64\\etc\postinstall\python3-numpy.bat"
+2025/08/05 16:17:06 note: Installation Complete
+2025/08/05 16:17:06 Ending OSGeo4W install

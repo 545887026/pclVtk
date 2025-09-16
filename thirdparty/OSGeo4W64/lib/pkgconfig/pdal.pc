@@ -1,0 +1,12 @@
+prefix=D:/src/osgeo4w/src/pdal/osgeo4w/install
+exec_prefix=D:/src/osgeo4w/src/pdal/osgeo4w/install/bin
+libdir=D:/src/osgeo4w/src/pdal/osgeo4w/install/lib
+includedir=D:/src/osgeo4w/src/pdal/osgeo4w/install/include
+
+Name: PDAL
+Description: Point Data Abstraction Library
+Requires:   gdal libxml-2.0
+Version: 2.9.0
+Libs: -L${libdir} -lpdalcpp
+Cflags: -I${includedir}/pdal  
+
