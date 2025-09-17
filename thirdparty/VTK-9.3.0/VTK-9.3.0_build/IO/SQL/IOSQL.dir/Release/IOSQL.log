@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/SQL/CMakeLists.txt
+  vtkDatabaseToTableReader.cxx
+  vtkRowQuery.cxx
+  vtkRowQueryToTable.cxx
+  vtkSQLDatabase.cxx
+  vtkSQLDatabaseSchema.cxx
+  vtkSQLDatabaseTableSource.cxx
+  vtkSQLiteDatabase.cxx
+  vtkSQLiteQuery.cxx
+  vtkSQLiteToTableReader.cxx
+  vtkSQLQuery.cxx
+  vtkTableToDatabaseWriter.cxx
+  vtkTableToSQLiteWriter.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOSQL-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOSQL-9.3.exp
+  IOSQL.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOSQL-9.3.dll

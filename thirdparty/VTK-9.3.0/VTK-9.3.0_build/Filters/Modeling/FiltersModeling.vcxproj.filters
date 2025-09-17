@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkAdaptiveSubdivisionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkBandedPolyDataContourFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkButterflySubdivisionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkCollisionDetectionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkContourLoopExtraction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkCookieCutter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkDijkstraGraphGeodesicPath.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkDijkstraImageGeodesicPath.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkFillHolesFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkFitToHeightMapFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkGeodesicPath.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkGraphGeodesicPath.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkHausdorffDistancePointSetFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkHyperTreeGridOutlineFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkImageDataOutlineFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkImprintFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkLinearCellExtrusionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkLinearExtrusionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkLinearSubdivisionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkLoopSubdivisionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkOutlineFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkPolyDataPointSampler.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkProjectedTexture.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkQuadRotationalExtrusionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkRibbonFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkRotationalExtrusionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkRuledSurfaceFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSectorSource.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSelectEnclosedPoints.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSelectPolyData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSpherePuzzle.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSpherePuzzleArrows.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSubdivideTetra.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkTrimmedExtrusionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkVolumeOfRevolutionFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkAdaptiveSubdivisionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkBandedPolyDataContourFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkButterflySubdivisionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkCollisionDetectionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkContourLoopExtraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkCookieCutter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkDijkstraGraphGeodesicPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkDijkstraImageGeodesicPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkFillHolesFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkFitToHeightMapFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkGeodesicPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkGraphGeodesicPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkHausdorffDistancePointSetFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkHyperTreeGridOutlineFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkImageDataOutlineFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkImprintFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkLinearCellExtrusionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkLinearExtrusionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkLinearSubdivisionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkLoopSubdivisionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkOutlineFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkPolyDataPointSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkProjectedTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkQuadRotationalExtrusionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkRibbonFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkRotationalExtrusionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkRuledSurfaceFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSectorSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSelectEnclosedPoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSelectPolyData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSpherePuzzle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSpherePuzzleArrows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkSubdivideTetra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkTrimmedExtrusionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\vtkVolumeOfRevolutionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling\vtkFiltersModelingModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5BB9ECD9-9EE4-39E8-BE67-24165E5ADC0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B75F9258-14A6-3D22-B437-85627172989A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

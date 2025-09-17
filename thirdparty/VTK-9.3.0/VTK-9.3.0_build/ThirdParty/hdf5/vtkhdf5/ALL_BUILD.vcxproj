@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5CFB94A1-C14C-3F4A-8A86-7BFE2FEED05D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/hdf5/vtkhdf5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/hdf5/vtkhdf5/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeFilters.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeInstallation.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakePlugins.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\UserMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConfigureChecks.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\H5pubconf.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDF5Macros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDF5PluginMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDFCompilerFlags.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\libhdf5.settings.cmake.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\ConfigureChecks.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFLibMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFMacros.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckStructHasMember.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckVariableExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/hdf5/vtkhdf5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/hdf5/vtkhdf5/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeFilters.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeInstallation.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakePlugins.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\UserMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConfigureChecks.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\H5pubconf.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDF5Macros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDF5PluginMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDFCompilerFlags.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\libhdf5.settings.cmake.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\ConfigureChecks.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFLibMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFMacros.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckStructHasMember.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckVariableExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/hdf5/vtkhdf5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/hdf5/vtkhdf5/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeFilters.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeInstallation.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakePlugins.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\UserMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConfigureChecks.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\H5pubconf.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDF5Macros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDF5PluginMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDFCompilerFlags.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\libhdf5.settings.cmake.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\ConfigureChecks.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFLibMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFMacros.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckStructHasMember.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckVariableExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/hdf5/vtkhdf5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/hdf5/vtkhdf5/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeFilters.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakeInstallation.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\CMakePlugins.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\UserMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConfigureChecks.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\H5pubconf.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDF5Macros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDF5PluginMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\HDFCompilerFlags.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\libhdf5.settings.cmake.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\ConfigureChecks.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFLibMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFMacros.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckStructHasMember.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckVariableExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src\H5detect.vcxproj">
+      <Project>{BCCEEA27-A595-395A-AFDA-E829B7241109}</Project>
+      <Name>H5detect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src\H5make_libsettings.vcxproj">
+      <Project>{D1CBD7FA-7237-3EE5-81A6-4ECA814D252D}</Project>
+      <Name>H5make_libsettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src\gen_hdf5.vcxproj">
+      <Project>{5CFF0013-E967-3CB3-BB16-11EE03293303}</Project>
+      <Name>gen_hdf5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src\vtkhdf5_hl_src.vcxproj">
+      <Project>{8BE6B80A-7D2E-34CA-9B5D-CCCF3868DB14}</Project>
+      <Name>vtkhdf5_hl_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src\vtkhdf5_src.vcxproj">
+      <Project>{FFC33B1F-EB7B-3ACA-B56E-53851C0C8B9C}</Project>
+      <Name>vtkhdf5_src</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

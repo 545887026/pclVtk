@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkloguru-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtksys-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkCommonCore-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkkissfft-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkCommonMath-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkCommonMisc-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkCommonSystem-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkCommonTransforms-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkpugixml-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkCommonDataModel-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkCommonExecutionModel-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkdoubleconversion-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtklz4-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtklzma-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkzlib-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOCore-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkexpat-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOXMLParser-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOXML-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOLegacy-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkParallelCore-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOParallelXML-9.3.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

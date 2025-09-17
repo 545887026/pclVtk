@@ -1,0 +1,30 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Filters/Geometry/CMakeLists.txt
+  vtkAbstractGridConnectivity.cxx
+  vtkAttributeSmoothingFilter.cxx
+  vtkCompositeDataGeometryFilter.cxx
+  vtkDataSetRegionSurfaceFilter.cxx
+  vtkDataSetSurfaceFilter.cxx
+  vtkExplicitStructuredGridSurfaceFilter.cxx
+  vtkGeometryFilter.cxx
+  vtkHierarchicalDataSetGeometryFilter.cxx
+  vtkImageDataGeometryFilter.cxx
+  vtkImageDataToUniformGrid.cxx
+  vtkLinearToQuadraticCellsFilter.cxx
+  vtkMarkBoundaryFilter.cxx
+  vtkProjectSphereFilter.cxx
+  vtkRecoverGeometryWireframe.cxx
+  vtkRectilinearGridGeometryFilter.cxx
+  vtkRectilinearGridPartitioner.cxx
+  vtkStructuredAMRGridConnectivity.cxx
+  vtkStructuredAMRNeighbor.cxx
+  vtkStructuredGridConnectivity.cxx
+  vtkStructuredGridGeometryFilter.cxx
+  正在生成代码...
+  正在编译...
+  vtkStructuredGridPartitioner.cxx
+  vtkStructuredNeighbor.cxx
+  vtkStructuredPointsGeometryFilter.cxx
+  vtkUnstructuredGridGeometryFilter.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkFiltersGeometry-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkFiltersGeometry-9.3.exp
+  FiltersGeometry.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkFiltersGeometry-9.3.dll

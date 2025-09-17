@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Interaction\Style\vtkInteractionStyleObjectFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleDrawPolygon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleFlight.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleJoystickActor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleJoystickCamera.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleMultiTouchCamera.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleRubberBand2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleRubberBand3D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleRubberBandPick.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleRubberBandZoom.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleTerrain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleTrackball.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleTrackballActor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleTrackballCamera.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleUnicam.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleUser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleSwitch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkParallelCoordinatesInteractorStyle.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleDrawPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleFlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleJoystickActor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleJoystickCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleMultiTouchCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleRubberBand2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleRubberBand3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleRubberBandPick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleRubberBandZoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleTerrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleTrackball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleTrackballActor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleTrackballCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleUnicam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkInteractorStyleSwitch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\vtkParallelCoordinatesInteractorStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Interaction\Style\vtkInteractionStyleModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Interaction\Style\vtkInteractionStyleObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Interaction\Style\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5BB9ECD9-9EE4-39E8-BE67-24165E5ADC0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B75F9258-14A6-3D22-B437-85627172989A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

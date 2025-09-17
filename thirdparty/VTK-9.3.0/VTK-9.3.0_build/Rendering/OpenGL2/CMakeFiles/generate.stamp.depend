@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/FindDirectX.cmake
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkObjectFactory.cxx.in
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkObjectFactory.h.in
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkOpenGLOptions.cmake
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/OpenGL2/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/OpenGL2/vtkOpenGLError.h.in
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/OpenGL2/vtkRenderingOpenGLConfigure.h.in
+D:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/exportheader.cmake.in

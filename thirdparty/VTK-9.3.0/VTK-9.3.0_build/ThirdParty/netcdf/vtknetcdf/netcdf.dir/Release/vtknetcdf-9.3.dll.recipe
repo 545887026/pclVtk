@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkH5detect.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkH5make_libsettings.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkzlib-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkhdf5-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkhdf5_hl-9.3.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtknetcdf-9.3.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridFS_DGHex.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridFS_DGTet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridGS_DGHex.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridGS_DGTet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridVS.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkRenderingCellGridObjectFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\CellGrid\vtkDGOpenGLRenderer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\CellGrid\vtkOpenGLCellGridMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\CellGrid\vtkOpenGLCellGridRenderRequest.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\CellGrid\vtkDGOpenGLRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\CellGrid\vtkOpenGLCellGridMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\CellGrid\vtkOpenGLCellGridRenderRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkRenderingCellGridModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridFS_DGHex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridFS_DGTet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridGS_DGHex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridGS_DGTet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkCellGridVS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\CellGrid\vtkRenderingCellGridObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\135a6b63f3f475426d02232b9116c319\vtkCellGridFS_DGHex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\135a6b63f3f475426d02232b9116c319\vtkCellGridFS_DGTet.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\135a6b63f3f475426d02232b9116c319\vtkCellGridGS_DGHex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\135a6b63f3f475426d02232b9116c319\vtkCellGridGS_DGTet.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\135a6b63f3f475426d02232b9116c319\vtkCellGridVS.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\CellGrid\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{11199ADF-0168-3FD9-B463-8F90A2A6C8BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5BB9ECD9-9EE4-39E8-BE67-24165E5ADC0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B75F9258-14A6-3D22-B437-85627172989A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

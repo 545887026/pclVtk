@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7A105F7-0F33-34F8-8FBE-BD23BC4693BA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>fmt</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">fmt.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkfmt-9.3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">fmt.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkfmt-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">fmt.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkfmt-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">fmt.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkfmt-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fmt" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fmt" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FMT_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";fmt_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FMT_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";fmt_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Debug/vtkfmt-9.3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Debug/vtkfmt-9.3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fmt" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fmt" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FMT_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";fmt_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FMT_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";fmt_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkfmt-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Release/vtkfmt-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fmt" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fmt" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FMT_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";fmt_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FMT_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";fmt_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/MinSizeRel/vtkfmt-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/MinSizeRel/vtkfmt-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fmt" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fmt" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FMT_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";fmt_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FMT_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";fmt_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/RelWithDebInfo/vtkfmt-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/RelWithDebInfo/vtkfmt-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fmt/vtkfmt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fmt/vtkfmt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\support\cmake\cxx14.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fmt/vtkfmt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fmt/vtkfmt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\support\cmake\cxx14.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fmt/vtkfmt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fmt/vtkfmt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\support\cmake\cxx14.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fmt/vtkfmt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fmt/vtkfmt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\support\cmake\cxx14.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fmt\vtkfmt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\src\format.cc" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\src\os.cc" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\args.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\chrono.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\color.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\compile.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\core.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\format.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\format-inl.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\os.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\ostream.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\printf.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\ranges.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\std.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fmt\vtkfmt\vtkfmt\xchar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

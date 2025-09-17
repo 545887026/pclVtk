@@ -1,0 +1,36 @@
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\6D52BDFBADF8CBD6C0C02CB02403781A\PROJ.DB.RULE
+setlocal
+cd D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\data
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E remove -f D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/../share/vtk-9.3/proj/proj.db
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -DCMAKE_CROSSCOMPILING_EMULATOR= -DALL_SQL_IN=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libproj/vtklibproj/data/all.sql.in -DEXE_SQLITE3=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Release/sqlitebin-9.3.exe -DPROJ_DB=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/../share/vtk-9.3/proj/proj.db -DPROJ_VERSION=8.1.0 -P D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libproj/vtklibproj/data/generate_proj_db.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/../share/vtk-9.3/proj/proj.db D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libproj/vtklibproj/data/for_tests
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\500C16937136A09AAEA156457C93A121\GENERATE_PROJ_DB.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0\THIRDPARTY\LIBPROJ\VTKLIBPROJ\DATA\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libproj/vtklibproj/data/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

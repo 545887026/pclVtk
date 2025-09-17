@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/pugixml/vtkpugixml/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/pugixml/vtkpugixml/src/pugiconfig.hpp.in
+D:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CTest.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CTestUseLaunchers.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake

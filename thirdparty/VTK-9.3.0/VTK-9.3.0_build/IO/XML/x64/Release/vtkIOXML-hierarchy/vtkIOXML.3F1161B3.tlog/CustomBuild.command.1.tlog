@@ -1,0 +1,28 @@
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\6DA717EE5EE78BECBCF8164C4876F401\VTKIOXML-HIERARCHY.TXT.RULE
+setlocal
+..\..\bin\Release\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/XML/CMakeFiles/vtkIOXML-hierarchy.Release.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkIOXML-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/XML/CMakeFiles/vtkIOXML-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/XML/CMakeFiles/vtkIOXML-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\3628D6F850A421E4E5C24497737E378B\VTKIOXML-HIERARCHY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0\IO\XML\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/XML/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,40 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/Volume/CMakeLists.txt
+  vtkDirectionEncoder.cxx
+  vtkEncodedGradientEstimator.cxx
+  vtkEncodedGradientShader.cxx
+  vtkFiniteDifferenceGradientEstimator.cxx
+  vtkFixedPointRayCastImage.cxx
+  vtkFixedPointVolumeRayCastCompositeGOHelper.cxx
+  vtkFixedPointVolumeRayCastCompositeGOShadeHelper.cxx
+  vtkFixedPointVolumeRayCastCompositeHelper.cxx
+  vtkFixedPointVolumeRayCastCompositeShadeHelper.cxx
+  vtkFixedPointVolumeRayCastHelper.cxx
+  vtkFixedPointVolumeRayCastMapper.cxx
+  vtkFixedPointVolumeRayCastMIPHelper.cxx
+  vtkGPUVolumeRayCastMapper.cxx
+  vtkMultiVolume.cxx
+  vtkOSPRayVolumeInterface.cxx
+  vtkProjectedTetrahedraMapper.cxx
+  vtkRayCastImageDisplayHelper.cxx
+  vtkRecursiveSphereDirectionEncoder.cxx
+  vtkSphericalDirectionEncoder.cxx
+  vtkUnstructuredGridBunykRayCastFunction.cxx
+  正在生成代码...
+  正在编译...
+  vtkUnstructuredGridHomogeneousRayIntegrator.cxx
+  vtkUnstructuredGridLinearRayIntegrator.cxx
+  vtkUnstructuredGridPartialPreIntegration.cxx
+  vtkUnstructuredGridPreIntegration.cxx
+  vtkUnstructuredGridVolumeMapper.cxx
+  vtkUnstructuredGridVolumeRayCastFunction.cxx
+  vtkUnstructuredGridVolumeRayCastIterator.cxx
+  vtkUnstructuredGridVolumeRayCastMapper.cxx
+  vtkUnstructuredGridVolumeRayIntegrator.cxx
+  vtkUnstructuredGridVolumeZSweepMapper.cxx
+  vtkVolumeMapper.cxx
+  vtkVolumeOutlineSource.cxx
+  vtkVolumePicker.cxx
+  vtkVolumeRayCastSpaceLeapingImageFilter.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingVolume-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingVolume-9.3.exp
+  RenderingVolume.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkRenderingVolume-9.3.dll

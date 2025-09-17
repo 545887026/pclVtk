@@ -1,0 +1,28 @@
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\6DA717EE5EE78BECBCF8164C4876F401\VTKFILTERSMODELING-HIERARCHY.TXT.RULE
+setlocal
+..\..\bin\Release\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Filters/Modeling/CMakeFiles/vtkFiltersModeling-hierarchy.Release.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkFiltersModeling-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Filters/Modeling/CMakeFiles/vtkFiltersModeling-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Filters/Modeling/CMakeFiles/vtkFiltersModeling-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\A3D1CFA83989E9F404433331B0F26031\VTKFILTERSMODELING-HIERARCHY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0\FILTERS\MODELING\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Filters/Modeling/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

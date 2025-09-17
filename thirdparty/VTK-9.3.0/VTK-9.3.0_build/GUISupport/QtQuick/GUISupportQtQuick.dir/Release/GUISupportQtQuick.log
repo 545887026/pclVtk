@@ -1,0 +1,38 @@
+﻿  Automatic MOC for target GUISupportQtQuick
+  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/GUISupport/QtQuick/CMakeLists.txt
+  QQuickVTKInteractiveWidget.cxx
+  QQuickVTKInteractorAdapter.cxx
+  QQuickVTKRenderItem.cxx
+  QQuickVTKRenderWindow.cxx
+  QQuickVTKItem.cxx
+  mocs_compilation_Release.cpp
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderWindow.h(188,12): warning C4996: 'QQuickVTKInteractorAdapter': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderWindow.h(263,12): warning C4996: 'QQuickVTKInteractorAdapter': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderItem.h(160,3): warning C4996: 'QQuickVTKRenderWindow': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderItem.h(161,32): warning C4996: 'QQuickVTKRenderWindow': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderItem.h(181,26): warning C4996: 'QQuickVTKInteractiveWidget': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderItem.h(182,29): warning C4996: 'QQuickVTKInteractiveWidget': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderItem.h(189,11): warning C4996: 'QQuickVTKInteractiveWidget': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderItem.h(233,3): warning C4996: 'QQuickVTKRenderWindow': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\GUISupport\QtQuick\QQuickVTKRenderItem.h(236,11): warning C4996: 'QQuickVTKInteractiveWidget': Use QQuickVTKItem instead
+  (编译源文件“GUISupportQtQuick_autogen/mocs_compilation_Release.cpp”)
+  
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkGUISupportQtQuick-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkGUISupportQtQuick-9.3.exp
+  GUISupportQtQuick.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkGUISupportQtQuick-9.3.dll

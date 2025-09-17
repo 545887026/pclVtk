@@ -1,0 +1,14 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/Parallel/CMakeLists.txt
+  vtkMultiBlockPLOT3DReaderInternals.cxx
+  vtkEnSightWriter.cxx
+  vtkMultiBlockPLOT3DReader.cxx
+  vtkNek5000Reader.cxx
+  vtkPChacoReader.cxx
+  vtkPDataSetReader.cxx
+  vtkPDataSetWriter.cxx
+  vtkPImageWriter.cxx
+  vtkPlot3DMetaReader.cxx
+  vtkPOpenFOAMReader.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOParallel-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOParallel-9.3.exp
+  IOParallel.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOParallel-9.3.dll

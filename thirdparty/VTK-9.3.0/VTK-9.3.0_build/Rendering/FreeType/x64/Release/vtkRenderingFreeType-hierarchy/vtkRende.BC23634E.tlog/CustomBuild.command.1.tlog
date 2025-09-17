@@ -1,0 +1,28 @@
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\6DA717EE5EE78BECBCF8164C4876F401\VTKRENDERINGFREETYPE-HIERARCHY.TXT.RULE
+setlocal
+..\..\bin\Release\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/FreeType/CMakeFiles/vtkRenderingFreeType-hierarchy.Release.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkRenderingFreeType-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/FreeType/CMakeFiles/vtkRenderingFreeType-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/FreeType/CMakeFiles/vtkRenderingFreeType-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\A9EB76F7DB2E03C4A8B912A9CC36EC3E\VTKRENDERINGFREETYPE-HIERARCHY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0\RENDERING\FREETYPE\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/FreeType/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

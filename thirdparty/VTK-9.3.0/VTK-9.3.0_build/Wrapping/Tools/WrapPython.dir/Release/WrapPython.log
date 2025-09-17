@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Wrapping/Tools/CMakeLists.txt
+  vtkWrapPython.c
+  vtkWrapPythonClass.c
+  vtkWrapPythonConstant.c
+  vtkWrapPythonEnum.c
+  vtkWrapPythonMethod.c
+  vtkWrapPythonMethodDef.c
+  vtkWrapPythonNamespace.c
+  vtkWrapPythonOverload.c
+  vtkWrapPythonTemplate.c
+  vtkWrapPythonType.c
+  正在生成代码...
+  WrapPython.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkWrapPython-9.3.exe

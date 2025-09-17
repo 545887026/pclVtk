@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A3E660A-6CA0-3F33-B3E4-4A17F5706EC7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>IOExportPDF</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IOExportPDF.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkIOExportPDF-9.3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IOExportPDF.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkIOExportPDF-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IOExportPDF.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkIOExportPDF-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IOExportPDF.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkIOExportPDF-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/freetype" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/freetype" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/zlib" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/zlib" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/jsoncpp" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/jsoncpp" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libharu" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libharu" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Debug";IOExportPDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Debug\";IOExportPDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\vtkIOExport-9.3d.lib;..\..\lib\Debug\vtkRenderingContext2D-9.3d.lib;..\..\lib\Debug\vtklibharu-9.3d.lib;..\..\lib\Debug\vtkIOXML-9.3d.lib;..\..\lib\Debug\vtkRenderingFreeType-9.3d.lib;..\..\lib\Debug\vtkfreetype-9.3d.lib;..\..\lib\Debug\vtkRenderingVtkJS-9.3d.lib;..\..\lib\Debug\vtkRenderingSceneGraph-9.3d.lib;..\..\lib\Debug\vtkjsoncpp-9.3d.lib;..\..\lib\Debug\vtkIOXMLParser-9.3d.lib;..\..\lib\Debug\vtkIOImage-9.3d.lib;..\..\lib\Debug\vtkIOCore-9.3d.lib;..\..\lib\Debug\vtkzlib-9.3d.lib;..\..\lib\Debug\vtkRenderingCore-9.3d.lib;..\..\lib\Debug\vtkImagingCore-9.3d.lib;..\..\lib\Debug\vtkFiltersCore-9.3d.lib;..\..\lib\Debug\vtkCommonExecutionModel-9.3d.lib;..\..\lib\Debug\vtkCommonDataModel-9.3d.lib;..\..\lib\Debug\vtkCommonTransforms-9.3d.lib;..\..\lib\Debug\vtkCommonMisc-9.3d.lib;..\..\lib\Debug\vtkCommonMath-9.3d.lib;..\..\lib\Debug\vtkkissfft-9.3d.lib;..\..\lib\Debug\vtkCommonCore-9.3d.lib;..\..\lib\Debug\vtksys-9.3d.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Debug/vtkIOExportPDF-9.3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Debug/vtkIOExportPDF-9.3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/freetype" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/freetype" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/zlib" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/zlib" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/jsoncpp" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/jsoncpp" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libharu" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libharu" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Release";IOExportPDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Release\";IOExportPDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\vtkIOExport-9.3.lib;..\..\lib\Release\vtkRenderingContext2D-9.3.lib;..\..\lib\Release\vtklibharu-9.3.lib;..\..\lib\Release\vtkIOXML-9.3.lib;..\..\lib\Release\vtkRenderingFreeType-9.3.lib;..\..\lib\Release\vtkfreetype-9.3.lib;..\..\lib\Release\vtkRenderingVtkJS-9.3.lib;..\..\lib\Release\vtkRenderingSceneGraph-9.3.lib;..\..\lib\Release\vtkjsoncpp-9.3.lib;..\..\lib\Release\vtkIOXMLParser-9.3.lib;..\..\lib\Release\vtkIOImage-9.3.lib;..\..\lib\Release\vtkIOCore-9.3.lib;..\..\lib\Release\vtkzlib-9.3.lib;..\..\lib\Release\vtkRenderingCore-9.3.lib;..\..\lib\Release\vtkImagingCore-9.3.lib;..\..\lib\Release\vtkFiltersCore-9.3.lib;..\..\lib\Release\vtkCommonExecutionModel-9.3.lib;..\..\lib\Release\vtkCommonDataModel-9.3.lib;..\..\lib\Release\vtkCommonTransforms-9.3.lib;..\..\lib\Release\vtkCommonMisc-9.3.lib;..\..\lib\Release\vtkCommonMath-9.3.lib;..\..\lib\Release\vtkkissfft-9.3.lib;..\..\lib\Release\vtkCommonCore-9.3.lib;..\..\lib\Release\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOExportPDF-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Release/vtkIOExportPDF-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/freetype" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/freetype" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/zlib" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/zlib" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/jsoncpp" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/jsoncpp" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libharu" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libharu" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="MinSizeRel";IOExportPDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"MinSizeRel\";IOExportPDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\vtkIOExport-9.3.lib;..\..\lib\MinSizeRel\vtkRenderingContext2D-9.3.lib;..\..\lib\MinSizeRel\vtklibharu-9.3.lib;..\..\lib\MinSizeRel\vtkIOXML-9.3.lib;..\..\lib\MinSizeRel\vtkRenderingFreeType-9.3.lib;..\..\lib\MinSizeRel\vtkfreetype-9.3.lib;..\..\lib\MinSizeRel\vtkRenderingVtkJS-9.3.lib;..\..\lib\MinSizeRel\vtkRenderingSceneGraph-9.3.lib;..\..\lib\MinSizeRel\vtkjsoncpp-9.3.lib;..\..\lib\MinSizeRel\vtkIOXMLParser-9.3.lib;..\..\lib\MinSizeRel\vtkIOImage-9.3.lib;..\..\lib\MinSizeRel\vtkIOCore-9.3.lib;..\..\lib\MinSizeRel\vtkzlib-9.3.lib;..\..\lib\MinSizeRel\vtkRenderingCore-9.3.lib;..\..\lib\MinSizeRel\vtkImagingCore-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersCore-9.3.lib;..\..\lib\MinSizeRel\vtkCommonExecutionModel-9.3.lib;..\..\lib\MinSizeRel\vtkCommonDataModel-9.3.lib;..\..\lib\MinSizeRel\vtkCommonTransforms-9.3.lib;..\..\lib\MinSizeRel\vtkCommonMisc-9.3.lib;..\..\lib\MinSizeRel\vtkCommonMath-9.3.lib;..\..\lib\MinSizeRel\vtkkissfft-9.3.lib;..\..\lib\MinSizeRel\vtkCommonCore-9.3.lib;..\..\lib\MinSizeRel\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/MinSizeRel/vtkIOExportPDF-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/MinSizeRel/vtkIOExportPDF-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/freetype" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/freetype" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/zlib" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/zlib" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/jsoncpp" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/jsoncpp" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libharu" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libharu" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="RelWithDebInfo";IOExportPDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\";IOExportPDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Export;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Image;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\XMLParser;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Context2D;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\FreeType;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype\vtkfreetype\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib\vtkzlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\VtkJS;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\SceneGraph;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp\vtkjsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\..\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\freetype;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\zlib;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\jsoncpp;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libharu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\vtkIOExport-9.3.lib;..\..\lib\RelWithDebInfo\vtkRenderingContext2D-9.3.lib;..\..\lib\RelWithDebInfo\vtklibharu-9.3.lib;..\..\lib\RelWithDebInfo\vtkIOXML-9.3.lib;..\..\lib\RelWithDebInfo\vtkRenderingFreeType-9.3.lib;..\..\lib\RelWithDebInfo\vtkfreetype-9.3.lib;..\..\lib\RelWithDebInfo\vtkRenderingVtkJS-9.3.lib;..\..\lib\RelWithDebInfo\vtkRenderingSceneGraph-9.3.lib;..\..\lib\RelWithDebInfo\vtkjsoncpp-9.3.lib;..\..\lib\RelWithDebInfo\vtkIOXMLParser-9.3.lib;..\..\lib\RelWithDebInfo\vtkIOImage-9.3.lib;..\..\lib\RelWithDebInfo\vtkIOCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkzlib-9.3.lib;..\..\lib\RelWithDebInfo\vtkRenderingCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkImagingCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonExecutionModel-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonDataModel-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonTransforms-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonMisc-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonMath-9.3.lib;..\..\lib\RelWithDebInfo\vtkkissfft-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonCore-9.3.lib;..\..\lib\RelWithDebInfo\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/RelWithDebInfo/vtkIOExportPDF-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/RelWithDebInfo/vtkIOExportPDF-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/ExportPDF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/ExportPDF/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/ExportPDF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/ExportPDF/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/ExportPDF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/ExportPDF/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/ExportPDF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/ExportPDF/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF\vtkIOExportPDFObjectFactory.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF\vtkPDFContextDevice2D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF\vtkPDFExporter.cxx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF\vtkPDFContextDevice2D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportPDF\vtkPDFExporter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF\vtkIOExportPDFModule.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportPDF\vtkIOExportPDFObjectFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\CommonCore.vcxproj">
+      <Project>{8CB998C6-BB12-31B8-8C6A-3B90723E87E7}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{D6B754E3-4365-3ACB-A876-CCA17787AB4C}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{002376D5-9804-3D95-A40E-833FEB09C52B}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math\CommonMath.vcxproj">
+      <Project>{C3AFB614-EB0A-3F81-B0CD-CA56581A812A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc\CommonMisc.vcxproj">
+      <Project>{11416E91-DFC0-3E61-8C44-62350CF96B17}</Project>
+      <Name>CommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{92DB6E77-C543-3BBF-BDCB-A07605CDE029}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core\FiltersCore.vcxproj">
+      <Project>{FB21EDAE-68C6-3E28-8A69-0BD90A565B2C}</Project>
+      <Name>FiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core\IOCore.vcxproj">
+      <Project>{08DD8C0E-9B83-3803-BF87-16F6F2D0779A}</Project>
+      <Name>IOCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Export\IOExport.vcxproj">
+      <Project>{423D5110-BF71-31F3-8244-4A4DF06654BE}</Project>
+      <Name>IOExport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image\IOImage.vcxproj">
+      <Project>{D20B0D81-4DD2-3CDD-B12D-7F57D6966E48}</Project>
+      <Name>IOImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XML\IOXML.vcxproj">
+      <Project>{8C93E1C9-9D66-3CB9-A48B-AFE46CB9EF56}</Project>
+      <Name>IOXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\XMLParser\IOXMLParser.vcxproj">
+      <Project>{0B9CCD54-D23D-3CDA-A3B9-BC35A14610BB}</Project>
+      <Name>IOXMLParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\ImagingCore.vcxproj">
+      <Project>{12819CA5-D361-3B2A-A5E1-D04380855C6E}</Project>
+      <Name>ImagingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Context2D\RenderingContext2D.vcxproj">
+      <Project>{C8BE7A0E-F809-372A-82D7-356E8E655B92}</Project>
+      <Name>RenderingContext2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core\RenderingCore.vcxproj">
+      <Project>{C0D71E38-C581-3244-9321-8056E2DC4831}</Project>
+      <Name>RenderingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType\RenderingFreeType.vcxproj">
+      <Project>{5379CDF5-3022-3F25-AC1D-8B0A985ADE90}</Project>
+      <Name>RenderingFreeType</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\SceneGraph\RenderingSceneGraph.vcxproj">
+      <Project>{11BF04B2-D243-3E69-B41A-72E2E16DBE99}</Project>
+      <Name>RenderingSceneGraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\VtkJS\RenderingVtkJS.vcxproj">
+      <Project>{DC5BB016-37B2-376D-BFC4-4506E05F6397}</Project>
+      <Name>RenderingVtkJS</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\freetype\vtkfreetype\freetype.vcxproj">
+      <Project>{BD026EF8-9FC3-3E43-A89E-9E846A5410BD}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\jsoncpp\vtkjsoncpp\jsoncpp.vcxproj">
+      <Project>{42E27359-06B3-3044-9D96-85AEAF3083A3}</Project>
+      <Name>jsoncpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{95A926F8-F30E-3C3D-9856-384D64DEE495}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libharu\vtklibharu\src\libharu.vcxproj">
+      <Project>{DBCBFEBB-AB2F-333D-9CB4-8481136A94F5}</Project>
+      <Name>libharu</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{C701AD04-19E7-3630-80B4-6421913EF44A}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\zlib\vtkzlib\zlib.vcxproj">
+      <Project>{A406A98A-0049-3BDF-BBF2-2EA711C62145}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

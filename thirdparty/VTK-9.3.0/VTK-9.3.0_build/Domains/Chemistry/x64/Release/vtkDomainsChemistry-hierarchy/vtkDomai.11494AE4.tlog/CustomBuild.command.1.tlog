@@ -1,0 +1,28 @@
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\6DA717EE5EE78BECBCF8164C4876F401\VTKDOMAINSCHEMISTRY-HIERARCHY.TXT.RULE
+setlocal
+..\..\bin\Release\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Domains/Chemistry/CMakeFiles/vtkDomainsChemistry-hierarchy.Release.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkDomainsChemistry-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Domains/Chemistry/CMakeFiles/vtkDomainsChemistry-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Domains/Chemistry/CMakeFiles/vtkDomainsChemistry-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\8D3EF262050CD8F7596A84F7756AB821\VTKDOMAINSCHEMISTRY-HIERARCHY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0\DOMAINS\CHEMISTRY\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Domains/Chemistry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

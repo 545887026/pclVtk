@@ -1,0 +1,12 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Filters/Texture/CMakeLists.txt
+  vtkImplicitTextureCoords.cxx
+  vtkScalarsToTextureFilter.cxx
+  vtkTextureMapToCylinder.cxx
+  vtkTextureMapToPlane.cxx
+  vtkTextureMapToSphere.cxx
+  vtkThresholdTextureCoords.cxx
+  vtkTransformTextureCoords.cxx
+  vtkTriangularTCoords.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkFiltersTexture-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkFiltersTexture-9.3.exp
+  FiltersTexture.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkFiltersTexture-9.3.dll

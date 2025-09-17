@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F53E251E-7387-3CAC-B7A0-23AEE4355731}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>IONetCDF</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IONetCDF.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkIONetCDF-9.3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IONetCDF.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkIONetCDF-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IONetCDF.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkIONetCDF-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IONetCDF.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkIONetCDF-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/netcdf" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/netcdf" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/hdf5" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/hdf5" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libproj" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libproj" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/nlohmannjson" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/nlohmannjson" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";IONetCDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";IONetCDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\vtkIOCore-9.3d.lib;..\..\lib\Debug\vtknetcdf-9.3d.lib;..\..\lib\Debug\vtklibproj-9.3d.lib;..\..\lib\Debug\vtkCommonExecutionModel-9.3d.lib;..\..\lib\Debug\vtkCommonDataModel-9.3d.lib;..\..\lib\Debug\vtkCommonTransforms-9.3d.lib;..\..\lib\Debug\vtkCommonMath-9.3d.lib;..\..\lib\Debug\vtkCommonCore-9.3d.lib;..\..\lib\Debug\vtksys-9.3d.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\lib\Debug\vtkkissfft-9.3d.lib;..\..\lib\Debug\vtkhdf5_hl-9.3d.lib;..\..\lib\Debug\vtkhdf5-9.3d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Debug/vtkIONetCDF-9.3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Debug/vtkIONetCDF-9.3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/netcdf" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/netcdf" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/hdf5" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/hdf5" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libproj" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libproj" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/nlohmannjson" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/nlohmannjson" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";IONetCDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";IONetCDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\vtkIOCore-9.3.lib;..\..\lib\Release\vtknetcdf-9.3.lib;..\..\lib\Release\vtklibproj-9.3.lib;..\..\lib\Release\vtkCommonExecutionModel-9.3.lib;..\..\lib\Release\vtkCommonDataModel-9.3.lib;..\..\lib\Release\vtkCommonTransforms-9.3.lib;..\..\lib\Release\vtkCommonMath-9.3.lib;..\..\lib\Release\vtkCommonCore-9.3.lib;..\..\lib\Release\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\lib\Release\vtkkissfft-9.3.lib;..\..\lib\Release\vtkhdf5_hl-9.3.lib;..\..\lib\Release\vtkhdf5-9.3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIONetCDF-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Release/vtkIONetCDF-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/netcdf" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/netcdf" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/hdf5" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/hdf5" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libproj" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libproj" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/nlohmannjson" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/nlohmannjson" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="MinSizeRel";IONetCDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"MinSizeRel\";IONetCDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\vtkIOCore-9.3.lib;..\..\lib\MinSizeRel\vtknetcdf-9.3.lib;..\..\lib\MinSizeRel\vtklibproj-9.3.lib;..\..\lib\MinSizeRel\vtkCommonExecutionModel-9.3.lib;..\..\lib\MinSizeRel\vtkCommonDataModel-9.3.lib;..\..\lib\MinSizeRel\vtkCommonTransforms-9.3.lib;..\..\lib\MinSizeRel\vtkCommonMath-9.3.lib;..\..\lib\MinSizeRel\vtkCommonCore-9.3.lib;..\..\lib\MinSizeRel\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\lib\MinSizeRel\vtkkissfft-9.3.lib;..\..\lib\MinSizeRel\vtkhdf5_hl-9.3.lib;..\..\lib\MinSizeRel\vtkhdf5-9.3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/MinSizeRel/vtkIONetCDF-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/MinSizeRel/vtkIONetCDF-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/netcdf" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/netcdf" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/hdf5" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/hdf5" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/libproj" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libproj" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/nlohmannjson" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/nlohmannjson" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="RelWithDebInfo";IONetCDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";IONetCDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf\vtknetcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\hl\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj\vtklibproj\src;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\netcdf;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\libproj;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\nlohmannjson;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\nlohmannjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\vtkIOCore-9.3.lib;..\..\lib\RelWithDebInfo\vtknetcdf-9.3.lib;..\..\lib\RelWithDebInfo\vtklibproj-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonExecutionModel-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonDataModel-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonTransforms-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonMath-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonCore-9.3.lib;..\..\lib\RelWithDebInfo\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\lib\RelWithDebInfo\vtkkissfft-9.3.lib;..\..\lib\RelWithDebInfo\vtkhdf5_hl-9.3.lib;..\..\lib\RelWithDebInfo\vtkhdf5-9.3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/RelWithDebInfo/vtkIONetCDF-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/RelWithDebInfo/vtkIONetCDF-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/NetCDF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/NetCDF/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/NetCDF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/NetCDF/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/NetCDF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/NetCDF/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/NetCDF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/IO/NetCDF/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkMPASReader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFCAMReader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFCFReader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFCFWriter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFPOPReader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFReader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFUGRIDReader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkSLACParticleReader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkSLACReader.cxx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkMPASReader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFCAMReader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFCFReader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFCFWriter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFPOPReader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFReader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkNetCDFUGRIDReader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkSLACParticleReader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\NetCDF\vtkSLACReader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\NetCDF\vtkIONetCDFModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\CommonCore.vcxproj">
+      <Project>{8CB998C6-BB12-31B8-8C6A-3B90723E87E7}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{D6B754E3-4365-3ACB-A876-CCA17787AB4C}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{002376D5-9804-3D95-A40E-833FEB09C52B}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math\CommonMath.vcxproj">
+      <Project>{C3AFB614-EB0A-3F81-B0CD-CA56581A812A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{92DB6E77-C543-3BBF-BDCB-A07605CDE029}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core\IOCore.vcxproj">
+      <Project>{08DD8C0E-9B83-3803-BF87-16F6F2D0779A}</Project>
+      <Name>IOCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{95A926F8-F30E-3C3D-9856-384D64DEE495}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\libproj\vtklibproj\src\libproj.vcxproj">
+      <Project>{255BFB82-FE04-3813-8EBE-8C9DE9787387}</Project>
+      <Name>libproj</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\netcdf\vtknetcdf\netcdf.vcxproj">
+      <Project>{24419CB7-06DC-34FD-A283-86EA4D6A19B8}</Project>
+      <Name>netcdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\hl\src\vtkhdf5_hl_src.vcxproj">
+      <Project>{8BE6B80A-7D2E-34CA-9B5D-CCCF3868DB14}</Project>
+      <Name>vtkhdf5_hl_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\hdf5\vtkhdf5\src\vtkhdf5_src.vcxproj">
+      <Project>{FFC33B1F-EB7B-3ACA-B56E-53851C0C8B9C}</Project>
+      <Name>vtkhdf5_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{C701AD04-19E7-3630-80B4-6421913EF44A}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{95B44D48-C226-3E6D-89EE-C72A05E06C83}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkImagingCore-hierarchy</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\6da717ee5ee78becbcf8164c4876f401\vtkImagingCore-hierarchy.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating the wrap hierarchy for VTK::ImagingCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapHierarchy-9.3d.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.Debug.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkImagingCore-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkAbstractImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkExtractVOI.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkGenericImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageAppendComponents.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBlend.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineCoefficients.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineInternals.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageCacheFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageCast.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageChangeInformation.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageClip.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageConstantPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDataStreamer.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDecomposeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDifference.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageExtractComponents.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageFlip.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageIterateFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMagnify.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMapToColors.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMask.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMirrorPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePadFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePermute.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePointDataIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePointIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageProbeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResample.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResize.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageReslice.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResliceToColors.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageShiftScale.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageShrink3D.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageSincInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilAlgorithm.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilData.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageThreshold.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageTranslateExtent.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageWrapPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkRTAnalyticSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\vtkImagingCoreModule.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.Debug.args;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.data;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkImagingCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating the wrap hierarchy for VTK::ImagingCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.Release.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkImagingCore-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkAbstractImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkExtractVOI.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkGenericImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageAppendComponents.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBlend.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineCoefficients.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineInternals.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageCacheFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageCast.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageChangeInformation.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageClip.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageConstantPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDataStreamer.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDecomposeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDifference.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageExtractComponents.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageFlip.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageIterateFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMagnify.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMapToColors.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMask.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMirrorPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePadFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePermute.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePointDataIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePointIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageProbeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResample.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResize.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageReslice.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResliceToColors.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageShiftScale.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageShrink3D.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageSincInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilAlgorithm.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilData.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageThreshold.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageTranslateExtent.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageWrapPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkRTAnalyticSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\vtkImagingCoreModule.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.Release.args;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.data;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkImagingCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating the wrap hierarchy for VTK::ImagingCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.MinSizeRel.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkImagingCore-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkAbstractImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkExtractVOI.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkGenericImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageAppendComponents.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBlend.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineCoefficients.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineInternals.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageCacheFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageCast.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageChangeInformation.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageClip.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageConstantPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDataStreamer.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDecomposeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDifference.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageExtractComponents.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageFlip.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageIterateFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMagnify.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMapToColors.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMask.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMirrorPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePadFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePermute.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePointDataIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePointIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageProbeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResample.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResize.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageReslice.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResliceToColors.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageShiftScale.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageShrink3D.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageSincInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilAlgorithm.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilData.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageThreshold.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageTranslateExtent.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageWrapPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkRTAnalyticSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\vtkImagingCoreModule.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.MinSizeRel.args;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.data;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkImagingCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating the wrap hierarchy for VTK::ImagingCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.RelWithDebInfo.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkImagingCore-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/vtkImagingCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkAbstractImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkExtractVOI.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkGenericImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageAppendComponents.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBlend.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineCoefficients.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineInternals.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageBSplineInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageCacheFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageCast.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageChangeInformation.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageClip.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageConstantPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDataStreamer.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDecomposeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageDifference.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageExtractComponents.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageFlip.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageIterateFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMagnify.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMapToColors.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMask.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageMirrorPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePadFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePermute.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePointDataIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImagePointIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageProbeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResample.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResize.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageReslice.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageResliceToColors.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageShiftScale.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageShrink3D.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageSincInterpolator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilAlgorithm.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilData.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilIterator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageStencilSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageThreshold.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageTranslateExtent.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkImageWrapPad.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\vtkRTAnalyticSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\vtkImagingCoreModule.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.RelWithDebInfo.args;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.data;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkImagingCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\2e4948b240ad2f18393ede6e8d215e6d\vtkImagingCore-hierarchy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkImagingCore-hierarchy.txt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Debug\vtkWrapHierarchy-9.3d.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkImagingCore-hierarchy.txt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkWrapHierarchy-9.3.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkImagingCore-hierarchy.txt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\MinSizeRel\vtkWrapHierarchy-9.3.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkImagingCore-hierarchy.txt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\RelWithDebInfo\vtkWrapHierarchy-9.3.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Imaging\Core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Imaging/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Imaging/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Imaging/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Imaging/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Imaging/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\CMakeFiles\vtkImagingCore-hierarchy">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Wrapping\Tools\WrapHierarchy.vcxproj">
+      <Project>{2EA8920E-D12F-3FDC-ADF0-461BFDD518CE}</Project>
+      <Name>WrapHierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCommonCore-hierarchy.vcxproj">
+      <Project>{A0D2D164-D0A9-332F-B198-4F7ECBA8DA91}</Project>
+      <Name>vtkCommonCore-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel\vtkCommonDataModel-hierarchy.vcxproj">
+      <Project>{BBCD517A-28B2-3F19-B35E-BB6D35D6D808}</Project>
+      <Name>vtkCommonDataModel-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel\vtkCommonExecutionModel-hierarchy.vcxproj">
+      <Project>{1F3D400A-7B12-390E-ADB3-0E1A5235B13D}</Project>
+      <Name>vtkCommonExecutionModel-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

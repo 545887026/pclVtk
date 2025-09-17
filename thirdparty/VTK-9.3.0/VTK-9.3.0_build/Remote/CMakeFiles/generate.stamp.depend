@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkModuleRemote.cmake
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Remote/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Remote/MomentInvariants.remote.cmake
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Remote/RenderingLookingGlass.remote.cmake
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Remote/vtkDICOM.remote.cmake

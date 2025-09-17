@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/UI/CMakeLists.txt
+  vtkRenderingUIObjectFactory.cxx
+  vtkGenericRenderWindowInteractor.cxx
+  vtkWin32HardwareWindow.cxx
+  vtkWin32RenderWindowInteractor.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingUI-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingUI-9.3.exp
+  RenderingUI.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkRenderingUI-9.3.dll

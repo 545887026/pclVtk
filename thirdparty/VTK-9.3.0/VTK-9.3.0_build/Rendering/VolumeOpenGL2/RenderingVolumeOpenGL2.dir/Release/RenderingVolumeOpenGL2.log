@@ -1,0 +1,28 @@
+﻿  Generating raycasterfs.h, raycasterfs.cxx
+  Generating raycastervs.h, raycastervs.cxx
+  Generating vtkglProjectedTetrahedraFS.h, vtkglProjectedTetrahedraFS.cxx
+  Generating vtkglProjectedTetrahedraVS.h, vtkglProjectedTetrahedraVS.cxx
+  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2/CMakeLists.txt
+  raycasterfs.cxx
+  raycastervs.cxx
+  vtkglProjectedTetrahedraFS.cxx
+  vtkglProjectedTetrahedraVS.cxx
+  vtkRenderingVolumeOpenGL2ObjectFactory.cxx
+  vtkMultiBlockUnstructuredGridVolumeMapper.cxx
+  vtkMultiBlockVolumeMapper.cxx
+  vtkOpenGLGPUVolumeRayCastMapper.cxx
+  vtkOpenGLProjectedTetrahedraMapper.cxx
+  vtkOpenGLRayCastImageDisplayHelper.cxx
+  vtkSmartVolumeMapper.cxx
+  vtkVolumeTexture.cxx
+  vtkOpenGLVolumeGradientOpacityTable.cxx
+  vtkOpenGLVolumeLookupTable.cxx
+  vtkOpenGLVolumeMaskGradientOpacityTransferFunction2D.cxx
+  vtkOpenGLVolumeMaskTransferFunction2D.cxx
+  vtkOpenGLVolumeOpacityTable.cxx
+  vtkOpenGLVolumeRGBTable.cxx
+  vtkOpenGLVolumeTransferFunction2D.cxx
+  vtkVolumeInputHelper.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingVolumeOpenGL2-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingVolumeOpenGL2-9.3.exp
+  RenderingVolumeOpenGL2.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkRenderingVolumeOpenGL2-9.3.dll

@@ -1,0 +1,41 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Filters/Modeling/CMakeLists.txt
+  vtkAdaptiveSubdivisionFilter.cxx
+  vtkBandedPolyDataContourFilter.cxx
+  vtkButterflySubdivisionFilter.cxx
+  vtkCollisionDetectionFilter.cxx
+  vtkContourLoopExtraction.cxx
+  vtkCookieCutter.cxx
+  vtkDijkstraGraphGeodesicPath.cxx
+  vtkDijkstraImageGeodesicPath.cxx
+  vtkFillHolesFilter.cxx
+  vtkFitToHeightMapFilter.cxx
+  vtkGeodesicPath.cxx
+  vtkGraphGeodesicPath.cxx
+  vtkHausdorffDistancePointSetFilter.cxx
+  vtkHyperTreeGridOutlineFilter.cxx
+  vtkImageDataOutlineFilter.cxx
+  vtkImprintFilter.cxx
+  vtkLinearCellExtrusionFilter.cxx
+  vtkLinearExtrusionFilter.cxx
+  vtkLinearSubdivisionFilter.cxx
+  vtkLoopSubdivisionFilter.cxx
+  正在生成代码...
+  正在编译...
+  vtkOutlineFilter.cxx
+  vtkPolyDataPointSampler.cxx
+  vtkProjectedTexture.cxx
+  vtkQuadRotationalExtrusionFilter.cxx
+  vtkRibbonFilter.cxx
+  vtkRotationalExtrusionFilter.cxx
+  vtkRuledSurfaceFilter.cxx
+  vtkSectorSource.cxx
+  vtkSelectEnclosedPoints.cxx
+  vtkSelectPolyData.cxx
+  vtkSpherePuzzle.cxx
+  vtkSpherePuzzleArrows.cxx
+  vtkSubdivideTetra.cxx
+  vtkTrimmedExtrusionFilter.cxx
+  vtkVolumeOfRevolutionFilter.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkFiltersModeling-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkFiltersModeling-9.3.exp
+  FiltersModeling.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkFiltersModeling-9.3.dll

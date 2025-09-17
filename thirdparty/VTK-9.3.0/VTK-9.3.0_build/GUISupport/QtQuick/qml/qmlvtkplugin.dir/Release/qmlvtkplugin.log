@@ -1,0 +1,8 @@
+﻿  Automatic MOC for target qmlvtkplugin
+  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/GUISupport/QtQuick/qml/CMakeLists.txt
+  QQmlVTKPlugin.cxx
+  mocs_compilation_Release.cpp
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/qmlvtkplugin.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/qmlvtkplugin.exp
+  qmlvtkplugin.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\qml\Release\VTK.9.3\qmlvtkplugin.dll
+  Copying qmltypes file from the source tree to D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/qml/Release/VTK.9.3/plugins.qmltypes

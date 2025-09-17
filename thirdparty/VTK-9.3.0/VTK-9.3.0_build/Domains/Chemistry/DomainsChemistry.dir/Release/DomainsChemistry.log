@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Domains/Chemistry/CMakeLists.txt
+  vtkBlueObeliskData.cxx
+  vtkBlueObeliskDataParser.cxx
+  vtkMoleculeMapper.cxx
+  vtkMoleculeToAtomBallFilter.cxx
+  vtkMoleculeToBondStickFilter.cxx
+  vtkMoleculeToLinesFilter.cxx
+  vtkMoleculeToPolyDataFilter.cxx
+  vtkPeriodicTable.cxx
+  vtkPointSetToMoleculeFilter.cxx
+  vtkProgrammableElectronicData.cxx
+  vtkProteinRibbonFilter.cxx
+  vtkSimpleBondPerceiver.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkDomainsChemistry-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkDomainsChemistry-9.3.exp
+  DomainsChemistry.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkDomainsChemistry-9.3.dll

@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libxml2/vtklibxml2/include/libxml/xmlversion.h.in
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/libxml2/vtklibxml2/include/win32config.h
+D:/Program Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckStructHasMember.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake

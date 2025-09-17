@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/ParallelXML/CMakeLists.txt
+  vtkXMLCompositeDataSetWriterHelper.cxx
+  vtkXMLDataWriterHelper.cxx
+  vtkXMLPartitionedDataSetCollectionWriter.cxx
+  vtkXMLPartitionedDataSetWriter.cxx
+  vtkXMLWriter2.cxx
+  vtkXMLPDataObjectWriter.cxx
+  vtkXMLPDataSetWriter.cxx
+  vtkXMLPDataWriter.cxx
+  vtkXMLPHierarchicalBoxDataWriter.cxx
+  vtkXMLPHyperTreeGridWriter.cxx
+  vtkXMLPImageDataWriter.cxx
+  vtkXMLPMultiBlockDataWriter.cxx
+  vtkXMLPPolyDataWriter.cxx
+  vtkXMLPRectilinearGridWriter.cxx
+  vtkXMLPStructuredDataWriter.cxx
+  vtkXMLPStructuredGridWriter.cxx
+  vtkXMLPTableWriter.cxx
+  vtkXMLPUniformGridAMRWriter.cxx
+  vtkXMLPUnstructuredDataWriter.cxx
+  vtkXMLPUnstructuredGridWriter.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOParallelXML-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOParallelXML-9.3.exp
+  IOParallelXML.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOParallelXML-9.3.dll

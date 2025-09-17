@@ -1,0 +1,38 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/Core/CMakeLists.txt
+  vtkAbstractParticleWriter.cxx
+  vtkAbstractPolyDataReader.cxx
+  vtkArrayDataReader.cxx
+  vtkArrayDataWriter.cxx
+  vtkArrayReader.cxx
+  vtkArrayWriter.cxx
+  vtkASCIITextCodec.cxx
+  vtkBase64InputStream.cxx
+  vtkBase64OutputStream.cxx
+  vtkBase64Utilities.cxx
+  vtkDataCompressor.cxx
+  vtkDelimitedTextWriter.cxx
+  vtkFileResourceStream.cxx
+  vtkGlobFileNames.cxx
+  vtkInputStream.cxx
+  vtkJavaScriptDataWriter.cxx
+  vtkLZ4DataCompressor.cxx
+  vtkLZMADataCompressor.cxx
+  vtkMemoryResourceStream.cxx
+  vtkNumberToString.cxx
+  正在生成代码...
+  正在编译...
+  vtkOutputStream.cxx
+  vtkResourceParser.cxx
+  vtkResourceStream.cxx
+  vtkSortFileNames.cxx
+  vtkTextCodec.cxx
+  vtkTextCodecFactory.cxx
+  vtkURI.cxx
+  vtkURILoader.cxx
+  vtkUTF16TextCodec.cxx
+  vtkUTF8TextCodec.cxx
+  vtkWriter.cxx
+  vtkZLibDataCompressor.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOCore-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOCore-9.3.exp
+  IOCore.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOCore-9.3.dll

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/zlib/vtkzlib/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/zlib/vtkzlib/zconf.h.cmakein
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake

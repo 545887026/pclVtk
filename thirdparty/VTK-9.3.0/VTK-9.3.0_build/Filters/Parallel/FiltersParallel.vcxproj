@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{713D2F83-4AD8-3C61-924B-6A37DFB49448}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>FiltersParallel</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FiltersParallel.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkFiltersParallel-9.3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FiltersParallel.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkFiltersParallel-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FiltersParallel.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkFiltersParallel-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FiltersParallel.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkFiltersParallel-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Debug";FiltersParallel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Debug\";FiltersParallel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\vtkFiltersExtraction-9.3d.lib;..\..\lib\Debug\vtkFiltersHybrid-9.3d.lib;..\..\lib\Debug\vtkFiltersHyperTree-9.3d.lib;..\..\lib\Debug\vtkFiltersModeling-9.3d.lib;..\..\lib\Debug\vtkFiltersTexture-9.3d.lib;..\..\lib\Debug\vtkParallelCore-9.3d.lib;..\..\lib\Debug\vtkIOLegacy-9.3d.lib;..\..\lib\Debug\vtkIOCore-9.3d.lib;..\..\lib\Debug\vtkFiltersSources-9.3d.lib;..\..\lib\Debug\vtkFiltersGeneral-9.3d.lib;..\..\lib\Debug\vtkFiltersGeometry-9.3d.lib;..\..\lib\Debug\vtkFiltersCore-9.3d.lib;..\..\lib\Debug\vtkCommonExecutionModel-9.3d.lib;..\..\lib\Debug\vtkCommonDataModel-9.3d.lib;..\..\lib\Debug\vtkCommonSystem-9.3d.lib;..\..\lib\Debug\vtkCommonMisc-9.3d.lib;..\..\lib\Debug\vtkCommonTransforms-9.3d.lib;..\..\lib\Debug\vtkCommonMath-9.3d.lib;..\..\lib\Debug\vtkCommonCore-9.3d.lib;..\..\lib\Debug\vtksys-9.3d.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\lib\Debug\vtkkissfft-9.3d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Debug/vtkFiltersParallel-9.3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Debug/vtkFiltersParallel-9.3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Release";FiltersParallel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Release\";FiltersParallel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\vtkFiltersExtraction-9.3.lib;..\..\lib\Release\vtkFiltersHybrid-9.3.lib;..\..\lib\Release\vtkFiltersHyperTree-9.3.lib;..\..\lib\Release\vtkFiltersModeling-9.3.lib;..\..\lib\Release\vtkFiltersTexture-9.3.lib;..\..\lib\Release\vtkParallelCore-9.3.lib;..\..\lib\Release\vtkIOLegacy-9.3.lib;..\..\lib\Release\vtkIOCore-9.3.lib;..\..\lib\Release\vtkFiltersSources-9.3.lib;..\..\lib\Release\vtkFiltersGeneral-9.3.lib;..\..\lib\Release\vtkFiltersGeometry-9.3.lib;..\..\lib\Release\vtkFiltersCore-9.3.lib;..\..\lib\Release\vtkCommonExecutionModel-9.3.lib;..\..\lib\Release\vtkCommonDataModel-9.3.lib;..\..\lib\Release\vtkCommonSystem-9.3.lib;..\..\lib\Release\vtkCommonMisc-9.3.lib;..\..\lib\Release\vtkCommonTransforms-9.3.lib;..\..\lib\Release\vtkCommonMath-9.3.lib;..\..\lib\Release\vtkCommonCore-9.3.lib;..\..\lib\Release\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\lib\Release\vtkkissfft-9.3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkFiltersParallel-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Release/vtkFiltersParallel-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="MinSizeRel";FiltersParallel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"MinSizeRel\";FiltersParallel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\vtkFiltersExtraction-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersHybrid-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersHyperTree-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersModeling-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersTexture-9.3.lib;..\..\lib\MinSizeRel\vtkParallelCore-9.3.lib;..\..\lib\MinSizeRel\vtkIOLegacy-9.3.lib;..\..\lib\MinSizeRel\vtkIOCore-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersSources-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersGeneral-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersGeometry-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersCore-9.3.lib;..\..\lib\MinSizeRel\vtkCommonExecutionModel-9.3.lib;..\..\lib\MinSizeRel\vtkCommonDataModel-9.3.lib;..\..\lib\MinSizeRel\vtkCommonSystem-9.3.lib;..\..\lib\MinSizeRel\vtkCommonMisc-9.3.lib;..\..\lib\MinSizeRel\vtkCommonTransforms-9.3.lib;..\..\lib\MinSizeRel\vtkCommonMath-9.3.lib;..\..\lib\MinSizeRel\vtkCommonCore-9.3.lib;..\..\lib\MinSizeRel\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\lib\MinSizeRel\vtkkissfft-9.3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/MinSizeRel/vtkFiltersParallel-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/MinSizeRel/vtkFiltersParallel-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="RelWithDebInfo";FiltersParallel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\";FiltersParallel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Extraction;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Hybrid;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\HyperTree;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Modeling;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Texture;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Parallel\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Legacy;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\vtkFiltersExtraction-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersHybrid-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersHyperTree-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersModeling-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersTexture-9.3.lib;..\..\lib\RelWithDebInfo\vtkParallelCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkIOLegacy-9.3.lib;..\..\lib\RelWithDebInfo\vtkIOCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersSources-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersGeneral-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersGeometry-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonExecutionModel-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonDataModel-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonSystem-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonMisc-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonTransforms-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonMath-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonCore-9.3.lib;..\..\lib\RelWithDebInfo\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\lib\RelWithDebInfo\vtkkissfft-9.3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/RelWithDebInfo/vtkFiltersParallel-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/RelWithDebInfo/vtkFiltersParallel-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Filters/Parallel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Filters/Parallel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Filters/Parallel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Filters/Parallel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Filters/Parallel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Filters/Parallel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Filters/Parallel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Filters/Parallel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\CMake\vtkObjectFactory.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel\vtkFiltersParallelObjectFactory.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkAdaptiveTemporalInterpolator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkAggregateDataSetFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkAlignImageDataSetFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkAngularPeriodicFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkCollectGraph.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkCollectPolyData.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkCollectTable.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkCutMaterial.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkDistributedDataFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkDuplicatePolyData.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkExtractCTHPart.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkExtractPolyDataPiece.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkExtractUnstructuredGridPiece.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkExtractUserDefinedPiece.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkGenerateProcessIds.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkHyperTreeGridGhostCellsGenerator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPHyperTreeGridProbeFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkIntegrateAttributes.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPeriodicFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPCellDataToPointData.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPConvertToMultiBlockDataSet.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPExtractDataArraysOverTime.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPExtractExodusGlobalTemporalVariables.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPExtractSelectedArraysOverTime.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPieceRequestFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPieceScalars.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPipelineSize.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPKdTree.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPLinearExtrusionFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPMaskPoints.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPMergeArrays.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPOutlineCornerFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPOutlineFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPOutlineFilterInternals.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPPolyDataNormals.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPProbeFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPProjectSphereFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPReflectionFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPResampleFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPartitionBalancer.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkProcessIdScalars.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPSphereSource.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPTextureMapToSphere.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPYoungsMaterialInterface.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkRectilinearGridOutlineFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkRemoveGhosts.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitPolyDataPiece.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitRectilinearGridPiece.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitStructuredDataPiece.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitStructuredGridPiece.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitUnstructuredGridPiece.cxx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkBlockDistribution.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkAdaptiveTemporalInterpolator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkAggregateDataSetFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkAlignImageDataSetFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkAngularPeriodicFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkCollectGraph.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkCollectPolyData.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkCollectTable.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkCutMaterial.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkDistributedDataFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkDuplicatePolyData.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkExtractCTHPart.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkExtractPolyDataPiece.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkExtractUnstructuredGridPiece.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkExtractUserDefinedPiece.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkGenerateProcessIds.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkHyperTreeGridGhostCellsGenerator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPHyperTreeGridProbeFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkIntegrateAttributes.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPeriodicFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPCellDataToPointData.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPConvertToMultiBlockDataSet.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPExtractDataArraysOverTime.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPExtractExodusGlobalTemporalVariables.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPExtractSelectedArraysOverTime.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPieceRequestFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPieceScalars.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPipelineSize.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPKdTree.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPLinearExtrusionFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPMaskPoints.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPMergeArrays.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPOutlineCornerFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPOutlineFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPOutlineFilterInternals.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPPolyDataNormals.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPProbeFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPProjectSphereFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPReflectionFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPResampleFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPartitionBalancer.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkProcessIdScalars.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPSphereSource.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPTextureMapToSphere.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkPYoungsMaterialInterface.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkRectilinearGridOutlineFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkRemoveGhosts.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitPolyDataPiece.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitRectilinearGridPiece.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitStructuredDataPiece.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitStructuredGridPiece.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Parallel\vtkTransmitUnstructuredGridPiece.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel\vtkFiltersParallelModule.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Parallel\vtkFiltersParallelObjectFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\CommonCore.vcxproj">
+      <Project>{8CB998C6-BB12-31B8-8C6A-3B90723E87E7}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{D6B754E3-4365-3ACB-A876-CCA17787AB4C}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{002376D5-9804-3D95-A40E-833FEB09C52B}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math\CommonMath.vcxproj">
+      <Project>{C3AFB614-EB0A-3F81-B0CD-CA56581A812A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc\CommonMisc.vcxproj">
+      <Project>{11416E91-DFC0-3E61-8C44-62350CF96B17}</Project>
+      <Name>CommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System\CommonSystem.vcxproj">
+      <Project>{FB5473F4-1A91-3CB0-AAC5-6748405AAD0D}</Project>
+      <Name>CommonSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{92DB6E77-C543-3BBF-BDCB-A07605CDE029}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core\FiltersCore.vcxproj">
+      <Project>{FB21EDAE-68C6-3E28-8A69-0BD90A565B2C}</Project>
+      <Name>FiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Extraction\FiltersExtraction.vcxproj">
+      <Project>{F5F5C1FC-2943-3ACC-ACDC-FCA30C8494A7}</Project>
+      <Name>FiltersExtraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General\FiltersGeneral.vcxproj">
+      <Project>{2361303D-4A94-350F-B68D-5D39A2101033}</Project>
+      <Name>FiltersGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry\FiltersGeometry.vcxproj">
+      <Project>{796F385E-A9A7-3831-B735-FD1FE9427D71}</Project>
+      <Name>FiltersGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Hybrid\FiltersHybrid.vcxproj">
+      <Project>{D13B0896-23A2-31AC-B0AF-E09351E65E1F}</Project>
+      <Name>FiltersHybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\HyperTree\FiltersHyperTree.vcxproj">
+      <Project>{A2BCB5A5-36F6-361B-8090-2CAA7A95E3A9}</Project>
+      <Name>FiltersHyperTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Modeling\FiltersModeling.vcxproj">
+      <Project>{3B340C9E-3288-3451-A8D7-9F938845A30E}</Project>
+      <Name>FiltersModeling</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources\FiltersSources.vcxproj">
+      <Project>{73CB23BE-A691-38AB-97F8-82BE968BAC7A}</Project>
+      <Name>FiltersSources</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Texture\FiltersTexture.vcxproj">
+      <Project>{80249836-DD7E-3C25-ACB2-324386781CA0}</Project>
+      <Name>FiltersTexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Core\IOCore.vcxproj">
+      <Project>{08DD8C0E-9B83-3803-BF87-16F6F2D0779A}</Project>
+      <Name>IOCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Legacy\IOLegacy.vcxproj">
+      <Project>{C076738A-2DD0-3CD6-A9B1-8F12A2A17D15}</Project>
+      <Name>IOLegacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Parallel\Core\ParallelCore.vcxproj">
+      <Project>{D4B48F38-169C-38A6-B0AC-9003507F826E}</Project>
+      <Name>ParallelCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{95A926F8-F30E-3C3D-9856-384D64DEE495}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{C701AD04-19E7-3630-80B4-6421913EF44A}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

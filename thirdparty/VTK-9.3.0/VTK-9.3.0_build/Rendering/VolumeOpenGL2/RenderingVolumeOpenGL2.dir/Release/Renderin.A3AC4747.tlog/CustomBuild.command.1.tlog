@@ -1,0 +1,50 @@
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\15D8C8916BB55CE6AD72B4FB9E65A87F\RAYCASTERFS.H.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2 -Dbinary_dir=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/VolumeOpenGL2 -Dsource_file=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2/shaders/raycasterfs.glsl -Doutput_name=raycasterfs -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\15D8C8916BB55CE6AD72B4FB9E65A87F\RAYCASTERVS.H.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2 -Dbinary_dir=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/VolumeOpenGL2 -Dsource_file=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2/shaders/raycastervs.glsl -Doutput_name=raycastervs -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\15D8C8916BB55CE6AD72B4FB9E65A87F\VTKGLPROJECTEDTETRAHEDRAFS.H.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2 -Dbinary_dir=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/VolumeOpenGL2 -Dsource_file=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2/shaders/vtkglProjectedTetrahedraFS.glsl -Doutput_name=vtkglProjectedTetrahedraFS -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\15D8C8916BB55CE6AD72B4FB9E65A87F\VTKGLPROJECTEDTETRAHEDRAVS.H.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2 -Dbinary_dir=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/VolumeOpenGL2 -Dsource_file=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/VolumeOpenGL2/shaders/vtkglProjectedTetrahedraVS.glsl -Doutput_name=vtkglProjectedTetrahedraVS -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0\RENDERING\VOLUMEOPENGL2\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/VolumeOpenGL2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

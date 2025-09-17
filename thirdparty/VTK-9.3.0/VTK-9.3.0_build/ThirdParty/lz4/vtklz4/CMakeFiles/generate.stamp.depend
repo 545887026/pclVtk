@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/lz4/vtklz4/CMakeLists.txt
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake

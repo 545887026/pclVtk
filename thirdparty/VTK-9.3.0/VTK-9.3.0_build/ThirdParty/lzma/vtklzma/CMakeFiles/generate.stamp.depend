@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/lzma/vtklzma/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/lzma/vtklzma/config.h.in
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/ProcessorCount.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/TestBigEndian.cmake

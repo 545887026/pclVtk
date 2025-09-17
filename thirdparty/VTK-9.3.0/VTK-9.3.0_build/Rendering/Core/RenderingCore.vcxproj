@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0D71E38-C581-3244-9321-8056E2DC4831}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>RenderingCore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RenderingCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkRenderingCore-9.3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RenderingCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkRenderingCore-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RenderingCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkRenderingCore-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RenderingCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkRenderingCore-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Debug";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Debug\";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\vtkCommonColor-9.3d.lib;..\..\lib\Debug\vtkFiltersSources-9.3d.lib;..\..\lib\Debug\vtkFiltersGeneral-9.3d.lib;..\..\lib\Debug\vtkCommonComputationalGeometry-9.3d.lib;..\..\lib\Debug\vtkFiltersGeometry-9.3d.lib;..\..\lib\Debug\vtkFiltersCore-9.3d.lib;..\..\lib\Debug\vtkCommonExecutionModel-9.3d.lib;..\..\lib\Debug\vtkCommonDataModel-9.3d.lib;..\..\lib\Debug\vtkCommonSystem-9.3d.lib;..\..\lib\Debug\vtkCommonTransforms-9.3d.lib;..\..\lib\Debug\vtkCommonMisc-9.3d.lib;..\..\lib\Debug\vtkCommonMath-9.3d.lib;..\..\lib\Debug\vtkCommonCore-9.3d.lib;..\..\lib\Debug\vtkkissfft-9.3d.lib;..\..\lib\Debug\vtksys-9.3d.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Debug/vtkRenderingCore-9.3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Debug/vtkRenderingCore-9.3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Release";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Release\";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\vtkCommonColor-9.3.lib;..\..\lib\Release\vtkFiltersSources-9.3.lib;..\..\lib\Release\vtkFiltersGeneral-9.3.lib;..\..\lib\Release\vtkCommonComputationalGeometry-9.3.lib;..\..\lib\Release\vtkFiltersGeometry-9.3.lib;..\..\lib\Release\vtkFiltersCore-9.3.lib;..\..\lib\Release\vtkCommonExecutionModel-9.3.lib;..\..\lib\Release\vtkCommonDataModel-9.3.lib;..\..\lib\Release\vtkCommonSystem-9.3.lib;..\..\lib\Release\vtkCommonTransforms-9.3.lib;..\..\lib\Release\vtkCommonMisc-9.3.lib;..\..\lib\Release\vtkCommonMath-9.3.lib;..\..\lib\Release\vtkCommonCore-9.3.lib;..\..\lib\Release\vtkkissfft-9.3.lib;..\..\lib\Release\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingCore-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Release/vtkRenderingCore-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="MinSizeRel";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"MinSizeRel\";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\vtkCommonColor-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersSources-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersGeneral-9.3.lib;..\..\lib\MinSizeRel\vtkCommonComputationalGeometry-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersGeometry-9.3.lib;..\..\lib\MinSizeRel\vtkFiltersCore-9.3.lib;..\..\lib\MinSizeRel\vtkCommonExecutionModel-9.3.lib;..\..\lib\MinSizeRel\vtkCommonDataModel-9.3.lib;..\..\lib\MinSizeRel\vtkCommonSystem-9.3.lib;..\..\lib\MinSizeRel\vtkCommonTransforms-9.3.lib;..\..\lib\MinSizeRel\vtkCommonMisc-9.3.lib;..\..\lib\MinSizeRel\vtkCommonMath-9.3.lib;..\..\lib\MinSizeRel\vtkCommonCore-9.3.lib;..\..\lib\MinSizeRel\vtkkissfft-9.3.lib;..\..\lib\MinSizeRel\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/MinSizeRel/vtkRenderingCore-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/MinSizeRel/vtkRenderingCore-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/kissfft" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="RelWithDebInfo";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\DataModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Math;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft\vtkkissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Transforms;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ExecutionModel;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Misc;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Color;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\ComputationalGeometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\System;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\General;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Geometry;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Filters\Sources;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\vtkCommonColor-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersSources-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersGeneral-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonComputationalGeometry-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersGeometry-9.3.lib;..\..\lib\RelWithDebInfo\vtkFiltersCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonExecutionModel-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonDataModel-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonSystem-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonTransforms-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonMisc-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonMath-9.3.lib;..\..\lib\RelWithDebInfo\vtkCommonCore-9.3.lib;..\..\lib\RelWithDebInfo\vtkkissfft-9.3.lib;..\..\lib\RelWithDebInfo\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/RelWithDebInfo/vtkRenderingCore-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/RelWithDebInfo/vtkRenderingCore-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxConfigure.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxConfigure.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxConfigure.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Rendering/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxConfigure.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractHyperTreeGridMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractMapper3D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractVolumeMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkActor.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkActor2D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkActor2DCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkActorCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAssembly.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAvatar.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkBackgroundColorMonitor.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkBillboardTextActor3D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCamera.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCameraActor.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCameraInterpolator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCellCenterDepthSort.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCellGridMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkColorTransferFunction.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCompositeDataDisplayAttributes.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCompositeDataDisplayAttributesLegacy.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCompositePolyDataMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCompositePolyDataMapperDelegator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCoordinate.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCuller.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCullerCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkDataSetMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkDiscretizableColorTransferFunction.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkDistanceToCamera.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFXAAOptions.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFlagpoleLabel.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFollower.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFrameBufferObjectBase.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFrustumCoverageCuller.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGPUInfo.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGPUInfoList.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGenericVertexAttributeMapping.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGlyph3DMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGraphMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGraphToGlyphs.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGraphicsFactory.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkHardwarePicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkHardwareSelector.cxx">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkHardwareWindow.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkHierarchicalPolyDataMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageActor.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageMapper3D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageProperty.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageSlice.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageSliceMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorEventRecorder.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorObserver.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLabeledContourMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLight.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLightActor.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLightCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLightKit.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLogLookupTable.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLookupTableWithEnabling.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkMapArrayValues.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkMapper2D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkMapperCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkObserverMediator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPointGaussianMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPolyDataMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPolyDataMapper2D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProp.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProp3D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProp3DCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProp3DFollower.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPropAssembly.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPropCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProperty.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProperty2D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderPass.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderState.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderTimerLog.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWindow.cxx">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWindowCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWindowInteractor.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWindowInteractor3D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderer.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRendererCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRendererDelegate.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRendererSource.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkResizingWindowToImageFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkSelectVisiblePoints.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkShaderProperty.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkSkybox.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkStereoCompositor.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextActor.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextActor3D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTexture.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTexturedActor2D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTransformCoordinateSystems.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTransformInterpolator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTupleInterpolator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkUniforms.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkViewDependentErrorMetric.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkViewport.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkVisibilitySort.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkVolume.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkVolumeCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkVolumeProperty.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkWindowLevelLookupTable.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkWindowToImageFilter.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAssemblyNode.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAssemblyPath.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAssemblyPaths.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAreaPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractPropPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLODProp3D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPropPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPickingManager.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkWorldPointPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCellPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPointPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderedAreaPicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkScenePicker.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorStyle.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorStyle3D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorStyleSwitchBase.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxInteractorStyle.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxInteractorStyleCamera.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxInteractorStyleSettings.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkStringToImage.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextMapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextProperty.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextPropertyCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextRenderer.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractInteractionDevice.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractRenderDevice.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWidget.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCIEDE2000.cxx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGPUInfoListArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPythagoreanQuadruples.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRayCastStructures.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderingCoreEnums.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkStateStorage.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core\vtkTDxConfigure.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxMotionEventInfo.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractHyperTreeGridMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractMapper3D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractVolumeMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkActor.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkActor2D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkActor2DCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkActorCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAssembly.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAvatar.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkBackgroundColorMonitor.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkBillboardTextActor3D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCamera.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCameraActor.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCameraInterpolator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCellCenterDepthSort.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCellGridMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkColorTransferFunction.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCompositeDataDisplayAttributes.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCompositeDataDisplayAttributesLegacy.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCompositePolyDataMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCompositePolyDataMapperDelegator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCoordinate.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCuller.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCullerCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkDataSetMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkDiscretizableColorTransferFunction.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkDistanceToCamera.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFXAAOptions.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFlagpoleLabel.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFollower.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFrameBufferObjectBase.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkFrustumCoverageCuller.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGPUInfo.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGPUInfoList.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGenericVertexAttributeMapping.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGlyph3DMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGraphMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGraphToGlyphs.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkGraphicsFactory.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkHardwarePicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkHardwareSelector.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkHardwareWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkHierarchicalPolyDataMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageActor.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageMapper3D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageProperty.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageSlice.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkImageSliceMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorEventRecorder.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorObserver.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLabeledContourMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLight.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLightActor.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLightCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLightKit.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLogLookupTable.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLookupTableWithEnabling.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkMapArrayValues.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkMapper2D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkMapperCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkObserverMediator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPointGaussianMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPolyDataMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPolyDataMapper2D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProp.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProp3D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProp3DCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProp3DFollower.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPropAssembly.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPropCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProperty.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkProperty2D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderPass.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderState.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderTimerLog.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWindowCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWindowInteractor.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWindowInteractor3D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderer.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRendererCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRendererDelegate.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRendererSource.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkResizingWindowToImageFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkSelectVisiblePoints.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkShaderProperty.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkSkybox.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkStereoCompositor.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextActor.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextActor3D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTexture.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTexturedActor2D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTransformCoordinateSystems.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTransformInterpolator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTupleInterpolator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkUniforms.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkViewDependentErrorMetric.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkViewport.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkVisibilitySort.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkVolume.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkVolumeCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkVolumeProperty.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkWindowLevelLookupTable.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkWindowToImageFilter.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAssemblyNode.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAssemblyPath.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAssemblyPaths.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAreaPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractPropPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkLODProp3D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPropPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPickingManager.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkWorldPointPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkCellPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkPointPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderedAreaPicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkScenePicker.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorStyle.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorStyle3D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkInteractorStyleSwitchBase.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxInteractorStyle.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxInteractorStyleCamera.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTDxInteractorStyleSettings.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkStringToImage.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextMapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextProperty.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextPropertyCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkTextRenderer.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractInteractionDevice.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkAbstractRenderDevice.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Rendering\Core\vtkRenderWidget.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\Core\vtkRenderingCoreModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color\CommonColor.vcxproj">
+      <Project>{BE30A8A6-5E08-368B-880D-B6C97A4FD361}</Project>
+      <Name>CommonColor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ComputationalGeometry\CommonComputationalGeometry.vcxproj">
+      <Project>{9606BAF7-2DF7-3883-80AA-7D5FCE70054F}</Project>
+      <Name>CommonComputationalGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\CommonCore.vcxproj">
+      <Project>{8CB998C6-BB12-31B8-8C6A-3B90723E87E7}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{D6B754E3-4365-3ACB-A876-CCA17787AB4C}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{002376D5-9804-3D95-A40E-833FEB09C52B}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Math\CommonMath.vcxproj">
+      <Project>{C3AFB614-EB0A-3F81-B0CD-CA56581A812A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Misc\CommonMisc.vcxproj">
+      <Project>{11416E91-DFC0-3E61-8C44-62350CF96B17}</Project>
+      <Name>CommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\System\CommonSystem.vcxproj">
+      <Project>{FB5473F4-1A91-3CB0-AAC5-6748405AAD0D}</Project>
+      <Name>CommonSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{92DB6E77-C543-3BBF-BDCB-A07605CDE029}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Core\FiltersCore.vcxproj">
+      <Project>{FB21EDAE-68C6-3E28-8A69-0BD90A565B2C}</Project>
+      <Name>FiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\General\FiltersGeneral.vcxproj">
+      <Project>{2361303D-4A94-350F-B68D-5D39A2101033}</Project>
+      <Name>FiltersGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Geometry\FiltersGeometry.vcxproj">
+      <Project>{796F385E-A9A7-3831-B735-FD1FE9427D71}</Project>
+      <Name>FiltersGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Filters\Sources\FiltersSources.vcxproj">
+      <Project>{73CB23BE-A691-38AB-97F8-82BE968BAC7A}</Project>
+      <Name>FiltersSources</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{95A926F8-F30E-3C3D-9856-384D64DEE495}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{C701AD04-19E7-3630-80B4-6421913EF44A}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

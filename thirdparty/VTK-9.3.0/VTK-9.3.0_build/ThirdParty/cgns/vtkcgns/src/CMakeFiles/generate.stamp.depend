@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/cgns/vtkcgns/src/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/cgns/vtkcgns/src/cg_hash_types.h.in
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/cgns/vtkcgns/src/cgnsconfig.h.in
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/cgns/vtkcgns/src/cgnstypes.h.in
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckStructHasMember.cmake

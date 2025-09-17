@@ -1,0 +1,20 @@
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0_BUILD\CMAKEFILES\FB6271D3FCF56BEC44B7E483061D15A6\VTKSOCKETCOMMUNICATORHASH.H.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -Dinput_file=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Parallel/Core/vtkSocketCommunicator.cxx -Doutput_file=D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Parallel/Core/vtkSocketCommunicatorHash.h -Doutput_name=vtkSocketCommunicatorHash -Dalgorithm=MD5 -D_vtk_hash_source_run=ON -P D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkHashSource.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\VTK-9.3.0\VTK-9.3.0\PARALLEL\CORE\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Parallel/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/ogg/vtkogg/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/ogg/vtkogg/cmake/CheckSizes.cmake
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/ogg/vtkogg/include/ogg/config_types.h.in
+D:/Program Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CTest.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CTestUseLaunchers.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+D:/Program Files/CMake/share/cmake-3.28/Modules/exportheader.cmake.in

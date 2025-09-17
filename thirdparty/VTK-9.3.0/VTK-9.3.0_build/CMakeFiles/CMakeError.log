@@ -1,0 +1,627 @@
+Checking whether C compiler has ssize_t in unistd.h failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02dd8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:28銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_02dd8.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_02dd8.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_02dd8.dir\Debug\cmTC_02dd8.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_02dd8.dir\Debug\cmTC_02dd8.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_02dd8.dir\Debug\cmTC_02dd8.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_SSIZE_T /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02dd8.dir\Debug\\" /Fd"cmTC_02dd8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_SSIZE_T /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02dd8.dir\Debug\\" /Fd"cmTC_02dd8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c"
+  kwsysPlatformTestsC.c
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c(46,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_02dd8.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_02dd8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_02dd8.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c(46,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_02dd8.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.56
+
+
+
+Checking whether C compiler has clock_gettime failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_84e80.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:29銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_84e80.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_84e80.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_84e80.dir\Debug\cmTC_84e80.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_84e80.dir\Debug\cmTC_84e80.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_84e80.dir\Debug\cmTC_84e80.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84e80.dir\Debug\\" /Fd"cmTC_84e80.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84e80.dir\Debug\\" /Fd"cmTC_84e80.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c"
+  kwsysPlatformTestsC.c
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c(69,24): error C2065: 鈥淐LOCK_MONOTONIC鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_84e80.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_84e80.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_84e80.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c(69,24): error C2065: 鈥淐LOCK_MONOTONIC鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_84e80.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.60
+
+
+
+Checking whether CXX compiler has setenv failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_70555.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:30銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_70555.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_70555.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_70555.dir\Debug\cmTC_70555.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_70555.dir\Debug\cmTC_70555.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_70555.dir\Debug\cmTC_70555.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_SETENV /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_70555.dir\Debug\\" /Fd"cmTC_70555.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_SETENV /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_70555.dir\Debug\\" /Fd"cmTC_70555.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(36,10): error C3861: 鈥渟etenv鈥? 鎵句笉鍒版爣璇嗙 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_70555.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_70555.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_70555.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(36,10): error C3861: 鈥渟etenv鈥? 鎵句笉鍒版爣璇嗙 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_70555.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.62
+
+
+
+Checking whether CXX compiler has unsetenv failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8ece1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:31銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_8ece1.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8ece1.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8ece1.dir\Debug\cmTC_8ece1.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_8ece1.dir\Debug\cmTC_8ece1.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_8ece1.dir\Debug\cmTC_8ece1.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_UNSETENV /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8ece1.dir\Debug\\" /Fd"cmTC_8ece1.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_UNSETENV /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8ece1.dir\Debug\\" /Fd"cmTC_8ece1.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(44,3): error C3861: 鈥渦nsetenv鈥? 鎵句笉鍒版爣璇嗙 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_8ece1.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_8ece1.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_8ece1.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(44,3): error C3861: 鈥渦nsetenv鈥? 鎵句笉鍒版爣璇嗙 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_8ece1.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.54
+
+
+
+Checking whether CXX compiler has utimes failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_77004.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:33銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77004.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_77004.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_77004.dir\Debug\cmTC_77004.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_77004.dir\Debug\cmTC_77004.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_77004.dir\Debug\cmTC_77004.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_UTIMES /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77004.dir\Debug\\" /Fd"cmTC_77004.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_UTIMES /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77004.dir\Debug\\" /Fd"cmTC_77004.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(81,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/time.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77004.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77004.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77004.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(81,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/time.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77004.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.58
+
+
+
+Checking whether CXX compiler has utimensat failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6f067.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:34銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6f067.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6f067.dir\Debug\cmTC_6f067.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_6f067.dir\Debug\cmTC_6f067.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_6f067.dir\Debug\cmTC_6f067.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_UTIMENSAT /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6f067.dir\Debug\\" /Fd"cmTC_6f067.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_UTIMENSAT /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6f067.dir\Debug\\" /Fd"cmTC_6f067.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100,19): error C2079: 鈥渢imes鈥濅娇鐢ㄦ湭瀹氫箟鐨?struct鈥渕ain::timespec鈥?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100,37): error C2065: 鈥淯TIME_OMIT鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100,56): error C2065: 鈥淯TIME_NOW鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101,20): error C2065: 鈥淎T_FDCWD鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101,49): error C2065: 鈥淎T_SYMLINK_NOFOLLOW鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101,10): error C3861: 鈥渦timensat鈥? 鎵句笉鍒版爣璇嗙 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100,19): error C2079: 鈥渢imes鈥濅娇鐢ㄦ湭瀹氫箟鐨?struct鈥渕ain::timespec鈥?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100,37): error C2065: 鈥淯TIME_OMIT鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100,56): error C2065: 鈥淯TIME_NOW鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101,20): error C2065: 鈥淎T_FDCWD鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101,49): error C2065: 鈥淎T_SYMLINK_NOFOLLOW鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101,10): error C3861: 鈥渦timensat鈥? 鎵句笉鍒版爣璇嗙 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_6f067.vcxproj]
+
+    0 涓鍛?
+    6 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.55
+
+
+
+Checking whether CXX compiler struct stat has st_mtim member failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3efaf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:35銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_3efaf.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3efaf.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3efaf.dir\Debug\cmTC_3efaf.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_3efaf.dir\Debug\cmTC_3efaf.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_3efaf.dir\Debug\cmTC_3efaf.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_STAT_HAS_ST_MTIM /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3efaf.dir\Debug\\" /Fd"cmTC_3efaf.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_STAT_HAS_ST_MTIM /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3efaf.dir\Debug\\" /Fd"cmTC_3efaf.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(8,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_3efaf.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_3efaf.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_3efaf.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(8,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_3efaf.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.52
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_323f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:36銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_323f5.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_323f5.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_323f5.dir\Debug\cmTC_323f5.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_323f5.dir\Debug\cmTC_323f5.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_323f5.dir\Debug\cmTC_323f5.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_323f5.dir\Debug\\" /Fd"cmTC_323f5.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_323f5.dir\Debug\\" /Fd"cmTC_323f5.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(22,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_323f5.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_323f5.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_323f5.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(22,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_323f5.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.62
+
+
+
+Checking whether CXX compiler has rlimit64 failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_77e1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:40銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77e1f.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_77e1f.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_77e1f.dir\Debug\cmTC_77e1f.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_77e1f.dir\Debug\cmTC_77e1f.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_77e1f.dir\Debug\cmTC_77e1f.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_RLIMIT64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77e1f.dir\Debug\\" /Fd"cmTC_77e1f.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_RLIMIT64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77e1f.dir\Debug\\" /Fd"cmTC_77e1f.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(72,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/resource.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77e1f.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77e1f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77e1f.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(72,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/resource.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_77e1f.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.69
+
+
+
+Checking whether <ext/stdio_filebuf.h> is available failed to compile with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0cc39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 13:56:41銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_0cc39.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0cc39.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0cc39.dir\Debug\cmTC_0cc39.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_0cc39.dir\Debug\cmTC_0cc39.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_0cc39.dir\Debug\cmTC_0cc39.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0cc39.dir\Debug\\" /Fd"cmTC_0cc39.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0cc39.dir\Debug\\" /Fd"cmTC_0cc39.dir\Debug\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(169,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xt/stdio_filebuf.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_0cc39.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_0cc39.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_0cc39.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(169,12): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xt/stdio_filebuf.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\CMakeFiles\CMakeTmp\cmTC_0cc39.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.50
+
+
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ccce5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 14:01:37銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_ccce5.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ccce5.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ccce5.dir\Debug\cmTC_ccce5.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_ccce5.dir\Debug\cmTC_ccce5.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_ccce5.dir\Debug\cmTC_ccce5.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D H5_LDOUBLE_TO_LONG_SPECIAL_TEST /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccce5.dir\Debug\\" /Fd"cmTC_ccce5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D H5_LDOUBLE_TO_LONG_SPECIAL_TEST /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccce5.dir\Debug\\" /Fd"cmTC_ccce5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c"
+  ConversionTests.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\cmTC_ccce5.exe" /INCREMENTAL /ILK:"cmTC_ccce5.dir\Debug\cmTC_ccce5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp/Debug/cmTC_ccce5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp/Debug/cmTC_ccce5.lib" /MACHINE:X64  /machine:x64 cmTC_ccce5.dir\Debug\ConversionTests.obj
+  cmTC_ccce5.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\cmTC_ccce5.exe
+FinalizeBuildStatus:
+  姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_ccce5.dir\Debug\cmTC_ccce5.tlog\unsuccessfulbuild鈥濄€?
+  姝ｅ湪瀵光€渃mTC_ccce5.dir\Debug\cmTC_ccce5.tlog\cmTC_ccce5.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_ccce5.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+
+宸叉垚鍔熺敓鎴愩€?
+    0 涓鍛?
+    0 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:01.63
+
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5d5b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 14:01:40銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_5d5b3.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5d5b3.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5d5b3.dir\Debug\cmTC_5d5b3.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_5d5b3.dir\Debug\cmTC_5d5b3.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_5d5b3.dir\Debug\cmTC_5d5b3.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D H5_LONG_TO_LDOUBLE_SPECIAL_TEST /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d5b3.dir\Debug\\" /Fd"cmTC_5d5b3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D H5_LONG_TO_LDOUBLE_SPECIAL_TEST /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d5b3.dir\Debug\\" /Fd"cmTC_5d5b3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c"
+  ConversionTests.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\cmTC_5d5b3.exe" /INCREMENTAL /ILK:"cmTC_5d5b3.dir\Debug\cmTC_5d5b3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp/Debug/cmTC_5d5b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp/Debug/cmTC_5d5b3.lib" /MACHINE:X64  /machine:x64 cmTC_5d5b3.dir\Debug\ConversionTests.obj
+  cmTC_5d5b3.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\cmTC_5d5b3.exe
+FinalizeBuildStatus:
+  姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_5d5b3.dir\Debug\cmTC_5d5b3.tlog\unsuccessfulbuild鈥濄€?
+  姝ｅ湪瀵光€渃mTC_5d5b3.dir\Debug\cmTC_5d5b3.tlog\cmTC_5d5b3.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_5d5b3.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+
+宸叉垚鍔熺敓鎴愩€?
+    0 涓鍛?
+    0 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:01.74
+
+
+Test H5_DISABLE_SOME_LDOUBLE_CONV Compile failed with the following output:
+ Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_93fe8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 14:01:49銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_93fe8.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_93fe8.dir\Debug\cmTC_93fe8.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_93fe8.dir\Debug\cmTC_93fe8.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_93fe8.dir\Debug\cmTC_93fe8.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D H5_DISABLE_SOME_LDOUBLE_CONV_TEST /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93fe8.dir\Debug\\" /Fd"cmTC_93fe8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D H5_DISABLE_SOME_LDOUBLE_CONV_TEST /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93fe8.dir\Debug\\" /Fd"cmTC_93fe8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c"
+  ConversionTests.c
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c(301,8): warning C4047: 鈥?鈥?鈥淔ILE *鈥濅笌鈥渋nt鈥濈殑闂存帴绾у埆涓嶅悓 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj]
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\cmTC_93fe8.exe" /INCREMENTAL /ILK:"cmTC_93fe8.dir\Debug\cmTC_93fe8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp/Debug/cmTC_93fe8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp/Debug/cmTC_93fe8.lib" /MACHINE:X64  /machine:x64 cmTC_93fe8.dir\Debug\ConversionTests.obj
+ConversionTests.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?popen锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj]
+ConversionTests.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?pclose锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj]
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\cmTC_93fe8.exe : fatal error LNK1120: 2 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c(301,8): warning C4047: 鈥?鈥?鈥淔ILE *鈥濅笌鈥渋nt鈥濈殑闂存帴绾у埆涓嶅悓 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj]
+
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj鈥?榛樿鐩爣) (1) ->
+(Link 鐩爣) -> 
+  ConversionTests.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?popen锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj]
+  ConversionTests.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?pclose锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj]
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\cmTC_93fe8.exe : fatal error LNK1120: 2 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_93fe8.vcxproj]
+
+    1 涓鍛?
+    3 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:01.35
+
+
+Determining if the HDF5 Multi_Dataset exists failed with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_697aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 14:03:33銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_697aa.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_697aa.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_697aa.dir\Debug\cmTC_697aa.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_697aa.dir\Debug\cmTC_697aa.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_697aa.dir\Debug\cmTC_697aa.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_697aa.dir\Debug\\" /Fd"cmTC_697aa.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_697aa.dir\Debug\\" /Fd"cmTC_697aa.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c"
+  test_HDF.c
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c(2,11): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渉df5.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_697aa.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_697aa.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_697aa.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c(2,11): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渉df5.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_697aa.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.48
+
+
+
+Determining if the HDF5 Collective_metadata exists failed with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_22d2a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 14:03:34銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_22d2a.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_22d2a.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_22d2a.dir\Debug\cmTC_22d2a.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_22d2a.dir\Debug\cmTC_22d2a.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_22d2a.dir\Debug\cmTC_22d2a.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22d2a.dir\Debug\\" /Fd"cmTC_22d2a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22d2a.dir\Debug\\" /Fd"cmTC_22d2a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c"
+  test_HDF.c
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c(2,11): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渉df5.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_22d2a.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_22d2a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_22d2a.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c(2,11): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渉df5.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_22d2a.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.64
+
+
+
+Determining if the HDF5 H5Pset_file_space_strategy exists failed with the following output:
+Change Dir: 'D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b4875.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.19+0d9f5a35a
+鐢熸垚鍚姩鏃堕棿涓?2025/7/25 14:03:35銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_b4875.vcxproj鈥?榛樿鐩爣)銆?
+PrepareForBuild:
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b4875.dir\Debug\鈥濄€?
+  宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+  姝ｅ湪鍒涘缓鐩綍鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\Debug\鈥濄€?
+  姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b4875.dir\Debug\cmTC_b4875.tlog\鈥濄€?
+InitializeBuildStatus:
+  姝ｅ湪鍒涘缓鈥渃mTC_b4875.dir\Debug\cmTC_b4875.tlog\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+  姝ｅ湪瀵光€渃mTC_b4875.dir\Debug\cmTC_b4875.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4875.dir\Debug\\" /Fd"cmTC_b4875.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c"
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34809 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4875.dir\Debug\\" /Fd"cmTC_b4875.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj /utf-8 "D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c"
+  test_HDF.c
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c(2,11): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渉df5.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_b4875.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_b4875.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_b4875.vcxproj鈥?榛樿鐩爣) (1) ->
+(ClCompile 鐩爣) -> 
+  D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\test_HDF.c(2,11): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渉df5.h鈥? No such file or directory [D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\CMakeTmp\cmTC_b4875.vcxproj]
+
+    0 涓鍛?
+    1 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:00.57
+
+
+

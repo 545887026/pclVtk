@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F319AE29-E330-3F25-A0C9-77F57D2228E3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkInfovisCore-hierarchy</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\6da717ee5ee78becbcf8164c4876f401\vtkInfovisCore-hierarchy.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating the wrap hierarchy for VTK::InfovisCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapHierarchy-9.3d.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.Debug.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkInfovisCore-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkAddMembershipArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkAdjacencyMatrixToEdgeTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkArrayNorm.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkArrayToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkCollapseGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkCollapseVerticesByArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkContinuousScatterplot.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkDataObjectToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkDotProductSimilarity.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkEdgeCenters.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExpandSelectedGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExtractSelectedGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExtractSelectedTree.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGenerateIndexArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGraphHierarchicalBundleEdges.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGroupLeafVertices.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkKCoreDecomposition.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeColumns.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeGraphs.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeTables.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMutableGraphHelper.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkNetworkHierarchy.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkPipelineGraphSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkPruneTreeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRandomGraphSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkReduceTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRemoveHiddenData.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRemoveIsolatedVertices.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkSparseArrayToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStreamGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStringToCategory.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStringToNumeric.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToSparseArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToTreeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkThresholdGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkThresholdTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTransferAttributes.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTransposeMatrix.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeDifferenceFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeFieldAggregator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeLevelsFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkVertexDegree.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkWordCloud.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\vtkInfovisCoreModule.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.Debug.args;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.data;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkInfovisCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating the wrap hierarchy for VTK::InfovisCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.Release.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkInfovisCore-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkAddMembershipArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkAdjacencyMatrixToEdgeTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkArrayNorm.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkArrayToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkCollapseGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkCollapseVerticesByArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkContinuousScatterplot.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkDataObjectToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkDotProductSimilarity.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkEdgeCenters.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExpandSelectedGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExtractSelectedGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExtractSelectedTree.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGenerateIndexArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGraphHierarchicalBundleEdges.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGroupLeafVertices.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkKCoreDecomposition.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeColumns.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeGraphs.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeTables.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMutableGraphHelper.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkNetworkHierarchy.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkPipelineGraphSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkPruneTreeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRandomGraphSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkReduceTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRemoveHiddenData.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRemoveIsolatedVertices.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkSparseArrayToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStreamGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStringToCategory.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStringToNumeric.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToSparseArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToTreeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkThresholdGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkThresholdTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTransferAttributes.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTransposeMatrix.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeDifferenceFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeFieldAggregator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeLevelsFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkVertexDegree.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkWordCloud.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\vtkInfovisCoreModule.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.Release.args;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.data;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkInfovisCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating the wrap hierarchy for VTK::InfovisCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.MinSizeRel.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkInfovisCore-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkAddMembershipArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkAdjacencyMatrixToEdgeTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkArrayNorm.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkArrayToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkCollapseGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkCollapseVerticesByArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkContinuousScatterplot.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkDataObjectToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkDotProductSimilarity.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkEdgeCenters.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExpandSelectedGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExtractSelectedGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExtractSelectedTree.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGenerateIndexArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGraphHierarchicalBundleEdges.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGroupLeafVertices.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkKCoreDecomposition.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeColumns.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeGraphs.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeTables.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMutableGraphHelper.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkNetworkHierarchy.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkPipelineGraphSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkPruneTreeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRandomGraphSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkReduceTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRemoveHiddenData.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRemoveIsolatedVertices.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkSparseArrayToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStreamGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStringToCategory.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStringToNumeric.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToSparseArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToTreeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkThresholdGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkThresholdTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTransferAttributes.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTransposeMatrix.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeDifferenceFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeFieldAggregator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeLevelsFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkVertexDegree.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkWordCloud.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\vtkInfovisCoreModule.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.MinSizeRel.args;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.data;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkInfovisCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating the wrap hierarchy for VTK::InfovisCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapHierarchy-9.3.exe @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.RelWithDebInfo.args -o D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/vtk-9.3/hierarchy/VTK/vtkInfovisCore-hierarchy.txt D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.data @D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/vtkInfovisCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkAddMembershipArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkAdjacencyMatrixToEdgeTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkArrayNorm.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkArrayToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkCollapseGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkCollapseVerticesByArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkContinuousScatterplot.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkDataObjectToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkDotProductSimilarity.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkEdgeCenters.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExpandSelectedGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExtractSelectedGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkExtractSelectedTree.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGenerateIndexArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGraphHierarchicalBundleEdges.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkGroupLeafVertices.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkKCoreDecomposition.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeColumns.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeGraphs.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMergeTables.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkMutableGraphHelper.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkNetworkHierarchy.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkPipelineGraphSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkPruneTreeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRandomGraphSource.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkReduceTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRemoveHiddenData.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkRemoveIsolatedVertices.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkSparseArrayToTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStreamGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStringToCategory.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkStringToNumeric.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToSparseArray.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTableToTreeFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkThresholdGraph.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkThresholdTable.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTransferAttributes.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTransposeMatrix.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeDifferenceFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeFieldAggregator.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkTreeLevelsFilter.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkVertexDegree.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\vtkWordCloud.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\vtkInfovisCoreModule.h;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.RelWithDebInfo.args;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.data;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkInfovisCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\ef35f29ae46b3d4c1ba8f0904c8a88fd\vtkInfovisCore-hierarchy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkInfovisCore-hierarchy.txt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Debug\vtkWrapHierarchy-9.3d.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkInfovisCore-hierarchy.txt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkWrapHierarchy-9.3.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkInfovisCore-hierarchy.txt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\MinSizeRel\vtkWrapHierarchy-9.3.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\lib\vtk-9.3\hierarchy\VTK\vtkInfovisCore-hierarchy.txt;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\RelWithDebInfo\vtkWrapHierarchy-9.3.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Infovis\Core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Infovis/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Infovis/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Infovis/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Infovis/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Infovis/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Infovis\Core\CMakeFiles\vtkInfovisCore-hierarchy">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Wrapping\Tools\WrapHierarchy.vcxproj">
+      <Project>{2EA8920E-D12F-3FDC-ADF0-461BFDD518CE}</Project>
+      <Name>WrapHierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Color\vtkCommonColor-hierarchy.vcxproj">
+      <Project>{D83E4B59-A22E-3101-99C3-B9B221890DB7}</Project>
+      <Name>vtkCommonColor-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCommonCore-hierarchy.vcxproj">
+      <Project>{A0D2D164-D0A9-332F-B198-4F7ECBA8DA91}</Project>
+      <Name>vtkCommonCore-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\DataModel\vtkCommonDataModel-hierarchy.vcxproj">
+      <Project>{BBCD517A-28B2-3F19-B35E-BB6D35D6D808}</Project>
+      <Name>vtkCommonDataModel-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\ExecutionModel\vtkCommonExecutionModel-hierarchy.vcxproj">
+      <Project>{1F3D400A-7B12-390E-ADB3-0E1A5235B13D}</Project>
+      <Name>vtkCommonExecutionModel-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\Image\vtkIOImage-hierarchy.vcxproj">
+      <Project>{EC4B54E9-DD32-30E9-B79D-2F117BB38FB1}</Project>
+      <Name>vtkIOImage-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Core\vtkImagingCore-hierarchy.vcxproj">
+      <Project>{95B44D48-C226-3E6D-89EE-C72A05E06C83}</Project>
+      <Name>vtkImagingCore-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Imaging\Sources\vtkImagingSources-hierarchy.vcxproj">
+      <Project>{43870ABD-A3B9-3CB0-B151-2A734E151D38}</Project>
+      <Name>vtkImagingSources-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Rendering\FreeType\vtkRenderingFreeType-hierarchy.vcxproj">
+      <Project>{BC23634E-DC23-3C53-8255-D3035DDCF9CA}</Project>
+      <Name>vtkRenderingFreeType-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

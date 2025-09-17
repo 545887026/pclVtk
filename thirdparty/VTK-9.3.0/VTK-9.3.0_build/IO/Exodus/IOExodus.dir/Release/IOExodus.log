@@ -1,0 +1,12 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/Exodus/CMakeLists.txt
+  vtkCPExodusIIElementBlock.cxx
+  vtkCPExodusIIInSituReader.cxx
+  vtkExodusIICache.cxx
+  vtkExodusIIReader.cxx
+  vtkExodusIIReaderParser.cxx
+  vtkExodusIIWriter.cxx
+  vtkModelMetadata.cxx
+  vtkExodusIIReaderVariableCheck.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOExodus-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOExodus-9.3.exp
+  IOExodus.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOExodus-9.3.dll

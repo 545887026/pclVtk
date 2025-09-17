@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkDetectLibraryType.cmake
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/CMake/vtkOpenGLOptions.cmake
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/glew/CMakeLists.txt
+D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/glew/vtk_glew.h.in
+D:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake

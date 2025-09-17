@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Rendering/FreeType/CMakeLists.txt
+  vtkRenderingFreeTypeObjectFactory.cxx
+  face_arial_bold.cxx
+  face_arial_bold_italic.cxx
+  face_arial.cxx
+  face_arial_italic.cxx
+  face_courier_bold.cxx
+  face_courier_bold_italic.cxx
+  face_courier.cxx
+  face_courier_italic.cxx
+  face_times_bold.cxx
+  face_times_bold_italic.cxx
+  face_times.cxx
+  face_times_italic.cxx
+  vtkFreeTypeStringToImage.cxx
+  vtkFreeTypeTools.cxx
+  vtkMathTextFreeTypeTextRenderer.cxx
+  vtkMathTextUtilities.cxx
+  vtkScaledTextActor.cxx
+  vtkTextRendererStringToImage.cxx
+  vtkVectorText.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingFreeType-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkRenderingFreeType-9.3.exp
+  RenderingFreeType.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkRenderingFreeType-9.3.dll

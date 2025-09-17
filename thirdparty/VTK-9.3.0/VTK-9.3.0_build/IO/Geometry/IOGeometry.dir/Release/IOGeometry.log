@@ -1,0 +1,34 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/IO/Geometry/CMakeLists.txt
+  vtkAVSucdReader.cxx
+  vtkBYUReader.cxx
+  vtkBYUWriter.cxx
+  vtkChacoReader.cxx
+  vtkFacetWriter.cxx
+  vtkFLUENTReader.cxx
+  vtkGAMBITReader.cxx
+  vtkGLTFDocumentLoader.cxx
+  vtkGLTFReader.cxx
+  vtkGLTFWriter.cxx
+  vtkHoudiniPolyDataWriter.cxx
+  vtkIVWriter.cxx
+  vtkMCubesReader.cxx
+  vtkMCubesWriter.cxx
+  vtkMFIXReader.cxx
+  vtkOBJReader.cxx
+  vtkOBJWriter.cxx
+  vtkOpenFOAMReader.cxx
+  vtkParticleReader.cxx
+  vtkProStarReader.cxx
+  正在生成代码...
+  正在编译...
+  vtkPTSReader.cxx
+  vtkSTLReader.cxx
+  vtkSTLWriter.cxx
+  vtkTecplotReader.cxx
+  vtkWindBladeReader.cxx
+  vtkGLTFDocumentLoaderInternals.cxx
+  vtkGLTFWriterUtils.cxx
+  vtkGLTFUtils.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOGeometry-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkIOGeometry-9.3.exp
+  IOGeometry.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkIOGeometry-9.3.dll

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\6da717ee5ee78becbcf8164c4876f401\vtkIOExportGL2PS-hierarchy.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\CMakeFiles\a6de9afdcd239fab3685cd93974f77fd\vtkIOExportGL2PS-hierarchy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\IO\ExportGL2PS\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\IO\ExportGL2PS\CMakeFiles\vtkIOExportGL2PS-hierarchy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{11199ADF-0168-3FD9-B463-8F90A2A6C8BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

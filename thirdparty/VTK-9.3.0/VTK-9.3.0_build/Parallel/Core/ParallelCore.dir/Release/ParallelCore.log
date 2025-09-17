@@ -1,0 +1,20 @@
+﻿  Generating vtkSocketCommunicatorHash.h
+  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Parallel/Core/CMakeLists.txt
+  vtkCommunicator.cxx
+  vtkDummyCommunicator.cxx
+  vtkDummyController.cxx
+  vtkFieldDataSerializer.cxx
+  vtkMultiProcessController.cxx
+  vtkMultiProcessStream.cxx
+  vtkPDirectory.cxx
+  vtkProcess.cxx
+  vtkProcessGroup.cxx
+  vtkPSystemTools.cxx
+  vtkSocketCommunicator.cxx
+  vtkSocketController.cxx
+  vtkSubCommunicator.cxx
+  vtkSubGroup.cxx
+  vtkThreadedCallbackQueue.cxx
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkParallelCore-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkParallelCore-9.3.exp
+  ParallelCore.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkParallelCore-9.3.dll

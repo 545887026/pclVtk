@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/verdict/vtkverdict/CMakeLists.txt
+  V_EdgeMetric.cpp
+  V_GaussIntegration.cpp
+  V_HexMetric.cpp
+  V_KnifeMetric.cpp
+D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\verdict\vtkverdict\V_HexMetric.cpp(1987,32): warning C4100: “num_nodes”: 未引用的形参
+  V_PyramidMetric.cpp
+  V_QuadMetric.cpp
+  V_TetMetric.cpp
+  V_TriMetric.cpp
+  V_WedgeMetric.cpp
+  VerdictVector.cpp
+  正在生成代码...
+    正在创建库 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkverdict-9.3.lib 和对象 D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkverdict-9.3.exp
+  verdict.vcxproj -> D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\vtkverdict-9.3.dll

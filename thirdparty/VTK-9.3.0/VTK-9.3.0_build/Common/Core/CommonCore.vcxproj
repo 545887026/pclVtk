@@ -1,0 +1,865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8CB998C6-BB12-31B8-8C6A-3B90723E87E7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>CommonCore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CommonCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkCommonCore-9.3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CommonCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkCommonCore-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CommonCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkCommonCore-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CommonCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkCommonCore-9.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/utf8" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/utf8" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fast_float" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fast_float" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/loguru" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/loguru" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VTK_MODULE_ENABLE_VTK_loguru=1;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";CommonCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;VTK_MODULE_ENABLE_VTK_loguru=1;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";CommonCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\vtksys-9.3d.lib;..\..\lib\Debug\vtkloguru-9.3d.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Debug/vtkCommonCore-9.3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Debug/vtkCommonCore-9.3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/utf8" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/utf8" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fast_float" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fast_float" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/loguru" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/loguru" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_loguru=1;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";CommonCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_loguru=1;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";CommonCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\vtksys-9.3.lib;..\..\lib\Release\vtkloguru-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/Release/vtkCommonCore-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/Release/vtkCommonCore-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/utf8" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/utf8" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fast_float" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fast_float" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/loguru" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/loguru" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_loguru=1;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";CommonCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_loguru=1;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";CommonCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\vtksys-9.3.lib;..\..\lib\MinSizeRel\vtkloguru-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/MinSizeRel/vtkCommonCore-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/MinSizeRel/vtkCommonCore-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWIML" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Utilities/KWSys" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/utf8" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/utf8" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/fast_float" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/fast_float" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/ThirdParty/loguru" /external:I "D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/ThirdParty/loguru" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_loguru=1;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";CommonCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_loguru=1;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";CommonCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru\vtkloguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWIML;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Utilities\KWSys;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\utf8;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\fast_float;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\ThirdParty\loguru;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\vtksys-9.3.lib;..\..\lib\RelWithDebInfo\vtkloguru-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/lib/RelWithDebInfo/vtkCommonCore-9.3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/bin/RelWithDebInfo/vtkCommonCore-9.3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Common/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkABINamespace.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAffineArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAffineImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayDispatchArrayList.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBuild.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkConstantArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkConstantImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCreateArrayDispatchArrayList.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCreateTypeListMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCxxABIConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebug.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebugRangeIterators.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkEndian.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFeatures.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGenericDataArrayValueRangeInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLegacy.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMathConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOptions.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPlatform.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMP.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMPSelection.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSOADataArrayTemplateInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStdFunctionArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTestBuiltins.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkThreads.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeArrays.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeListMacros.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVTK_DISPATCH_IMPLICIT_ARRAYS.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVTK_USE_SCALED_SOA_ARRAYS.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersionFull.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersionMacros.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Common/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkABINamespace.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAffineArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAffineImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayDispatchArrayList.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBuild.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkConstantArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkConstantImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCreateArrayDispatchArrayList.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCreateTypeListMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCxxABIConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebug.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebugRangeIterators.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkEndian.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFeatures.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGenericDataArrayValueRangeInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLegacy.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMathConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOptions.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPlatform.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMP.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMPSelection.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSOADataArrayTemplateInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStdFunctionArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTestBuiltins.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkThreads.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeArrays.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeListMacros.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVTK_DISPATCH_IMPLICIT_ARRAYS.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVTK_USE_SCALED_SOA_ARRAYS.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersionFull.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersionMacros.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Common/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkABINamespace.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAffineArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAffineImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayDispatchArrayList.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBuild.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkConstantArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkConstantImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCreateArrayDispatchArrayList.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCreateTypeListMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCxxABIConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebug.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebugRangeIterators.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkEndian.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFeatures.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGenericDataArrayValueRangeInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLegacy.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMathConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOptions.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPlatform.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMP.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMPSelection.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSOADataArrayTemplateInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStdFunctionArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTestBuiltins.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkThreads.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeArrays.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeListMacros.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVTK_DISPATCH_IMPLICIT_ARRAYS.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVTK_USE_SCALED_SOA_ARRAYS.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersionFull.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersionMacros.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0 -BD:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build --check-stamp-file D:/BaiduNetdiskDownload/VTK-9.3.0/VTK-9.3.0_build/Common/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkABINamespace.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAffineArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAffineImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayDispatchArrayList.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBuild.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkConstantArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkConstantImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCreateArrayDispatchArrayList.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCreateTypeListMacros.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCxxABIConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebug.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebugRangeIterators.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkEndian.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFeatures.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGenericDataArrayValueRangeInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedImplicitBackendInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLegacy.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMathConfigure.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOptions.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPlatform.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMP.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMPSelection.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSOADataArrayTemplateInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStdFunctionArrayInstantiate.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTestBuiltins.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkThreads.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeArrays.cmake;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeListMacros.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.cxx.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVTK_DISPATCH_IMPLICIT_ARRAYS.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVTK_USE_SCALED_SOA_ARRAYS.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersionFull.h.in;D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersionMacros.h.in;D:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;D:\Program Files\CMake\share\cmake-3.28\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayIteratorTemplateInstantiate.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGenericDataArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkValueFromString.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_double.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_float.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkGenericDataArrayValueRangeInstantiate_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkGenericDataArrayValueRangeInstantiate_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_signed_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_unsigned_char.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_unsigned_int.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkGenericDataArrayValueRangeInstantiate_unsigned_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkGenericDataArrayValueRangeInstantiate_unsigned_long_long.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineArrayInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkAffineImplicitBackendInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeArrayInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCompositeImplicitBackendInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantArrayInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkConstantImplicitBackendInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedArrayInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkIndexedImplicitBackendInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSOADataArrayTemplateInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkStdFunctionArrayInstantiate_unsigned_short.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\SMP\STDThread\vtkSMPToolsImpl.cxx">
+      <ObjectFileName>$(IntDir)/SMP/STDThread/vtkSMPToolsImpl.cxx.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\SMP\STDThread\vtkSMPThreadLocalBackend.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\SMP\STDThread\vtkSMPThreadPool.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\SMP\Sequential\vtkSMPToolsImpl.cxx">
+      <ObjectFileName>$(IntDir)/SMP/Sequential/vtkSMPToolsImpl.cxx.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\SMP\Common\vtkSMPToolsAPI.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMPTools.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWin32OutputWindowProcessEncoded.c" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeInt8Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeInt16Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeInt32Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeInt64Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeUInt8Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeUInt16Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeUInt32Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeUInt64Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeFloat32Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeFloat64Array.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAbstractArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAnimationCue.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArchiver.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayCoordinates.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayExtents.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayExtentsList.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayIterator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayRange.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArraySort.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayWeights.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAtomicMutex.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBitArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBitArrayIterator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBoxMuellerRandomSequence.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBreakPoint.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkByteSwap.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCallbackCommand.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCharArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCollectionIterator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCommand.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCommonInformationKeyManager.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArray.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArrayCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArrayCollectionIterator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArraySelection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebugLeaks.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebugLeaksManager.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDoubleArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDynamicLoader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkEventForwarderCommand.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFileOutputWindow.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFloatArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFloatingPointExceptions.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGarbageCollector.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGarbageCollectorManager.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGaussianRandomSequence.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIdList.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIdListCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIdTypeArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndent.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformation.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationDataObjectKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationDoubleKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationDoubleVectorKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIdTypeKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationInformationKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationInformationVectorKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIntegerKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIntegerPointerKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIntegerVectorKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIterator.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationKeyLookup.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationKeyVectorKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationObjectBaseKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationObjectBaseVectorKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationRequestKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationStringKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationStringVectorKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationUnsignedLongKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationVariantKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationVariantVectorKey.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationVector.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIntArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLargeInteger.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLogger.cxx">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LOGURU_SCOPE_TIME_PRECISION=3</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LOGURU_SCOPE_TIME_PRECISION=3</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LOGURU_SCOPE_TIME_PRECISION=3</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LOGURU_SCOPE_TIME_PRECISION=3</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLongArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLongLongArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLookupTable.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMath.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMersenneTwister.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMinimalStandardRandomSequence.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMultiThreader.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOStrStreamWrapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOStreamWrapper.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkObject.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkObjectBase.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkObjectFactory.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkObjectFactoryCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOldStyleCallbackCommand.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOutputWindow.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOverrideInformation.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOverrideInformationCollection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPoints.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPoints2D.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPriorityQueue.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkRandomPool.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkRandomSequence.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkReferenceCount.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkScalarsToColors.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkShortArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSignedCharArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSmartPointerBase.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSortDataArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStdString.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStringArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStringManager.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStringOutputWindow.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStringToken.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTimePointUtility.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTimeStamp.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedCharArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedIntArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedLongArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedLongLongArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedShortArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVariant.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVariantArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersion.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVoidArray.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWeakPointerBase.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWeakReference.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWindow.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkXMLFileOutputWindow.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCriticalSection.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWin32OutputWindow.cxx" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWin32ProcessOutputWindow.cxx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayIteratorTemplateImplicit.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\SMP\STDThread\vtkSMPToolsImpl.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\SMP\Sequential\vtkSMPToolsImpl.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAOSDataArrayTemplate.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayDispatch.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayInterpolate.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayIteratorTemplate.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayPrint.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDenseArray.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGenericDataArray.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMappedDataArray.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSOADataArrayTemplate.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSparseArray.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedDataArray.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompositeImplicitBackend.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkImplicitArray.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndexedImplicitBackend.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeList.txx" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkABI.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayIteratorIncludes.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAssume.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAutoInit.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBuffer.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCompiler.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArrayIteratorMacro.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArrayMeta.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArrayRange.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDeprecation.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkEventData.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGenericDataArrayLookupHelper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIOStream.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIOStreamFwd.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationInternals.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMathUtilities.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMatrixUtilities.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMeta.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkNew.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkRange.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkRangeIterableTraits.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSetGet.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSmartPointer.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSystemIncludes.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTemplateAliasMacro.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTestDataArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkType.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypeTraits.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedDataArrayIterator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkValueFromString.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVariantCast.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVariantCreate.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVariantExtract.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVariantInlineOperators.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWeakPointer.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWin32Header.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWindows.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWrappingHints.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMPTools.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMPThreadLocal.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSMPThreadLocalObject.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkABINamespace.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkArrayDispatchArrayList.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkMathConfigure.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeListMacros.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkVTK_USE_SCALED_SOA_ARRAYS.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkBuild.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkDebug.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkDebugRangeIterators.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkEndian.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkFeatures.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkLegacy.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkOptions.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkPlatform.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkSMP.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkThreads.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkVersionFull.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkVersionMacros.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeInt8Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeInt16Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeInt32Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeInt64Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeUInt8Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeUInt16Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeUInt32Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeUInt64Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeFloat32Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkTypeFloat64Array.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCxxABIConfigure.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAbstractArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAnimationCue.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArchiver.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayCoordinates.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayExtents.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayExtentsList.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayIterator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayRange.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArraySort.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayWeights.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAtomicMutex.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBitArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBitArrayIterator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBoxMuellerRandomSequence.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkBreakPoint.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkByteSwap.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCallbackCommand.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCharArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCollectionIterator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCommand.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCommonInformationKeyManager.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArrayCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArrayCollectionIterator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDataArraySelection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebugLeaks.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDebugLeaksManager.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDoubleArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDynamicLoader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkEventForwarderCommand.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFileOutputWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFloatArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkFloatingPointExceptions.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGarbageCollector.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGarbageCollectorManager.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGaussianRandomSequence.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIdList.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIdListCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIdTypeArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIndent.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformation.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationDataObjectKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationDoubleKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationDoubleVectorKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIdTypeKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationInformationKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationInformationVectorKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIntegerKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIntegerPointerKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIntegerVectorKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationIterator.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationKeyLookup.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationKeyVectorKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationObjectBaseKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationObjectBaseVectorKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationRequestKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationStringKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationStringVectorKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationUnsignedLongKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationVariantKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationVariantVectorKey.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkInformationVector.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkIntArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLargeInteger.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLogger.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLongArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLongLongArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkLookupTable.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMath.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMersenneTwister.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMinimalStandardRandomSequence.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMultiThreader.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOStrStreamWrapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOStreamWrapper.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkObject.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkObjectBase.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkObjectFactory.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkObjectFactoryCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOldStyleCallbackCommand.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOutputWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOverrideInformation.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkOverrideInformationCollection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPoints.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPoints2D.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkPriorityQueue.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkRandomPool.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkRandomSequence.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkReferenceCount.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkScalarsToColors.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkShortArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSignedCharArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSmartPointerBase.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSortDataArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStdString.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStringArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStringManager.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStringOutputWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkStringToken.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTimePointUtility.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTimeStamp.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedCharArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedIntArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedLongArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedLongLongArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkUnsignedShortArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVariant.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVariantArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVersion.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkVoidArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWeakPointerBase.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWeakReference.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkXMLFileOutputWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkCriticalSection.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWin32OutputWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkWin32ProcessOutputWindow.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkAOSDataArrayTemplate.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayDispatch.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayInterpolate.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayIteratorTemplate.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkArrayPrint.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkDenseArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkGenericDataArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkMappedDataArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSOADataArrayTemplate.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkSparseArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0\Common\Core\vtkTypedDataArray.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkCommonCoreModule.h" />
+    <ClInclude Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Common\Core\vtkFloatingPointExceptionsConfigure.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ZERO_CHECK.vcxproj">
+      <Project>{213A3CC1-DF84-3F7A-B6D0-2F78BB3A5CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\ThirdParty\loguru\vtkloguru\loguru.vcxproj">
+      <Project>{DFDD02A0-0B9A-3EBD-AE97-727A538BB846}</Project>
+      <Name>loguru</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\VTK-9.3.0\VTK-9.3.0_build\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{C701AD04-19E7-3630-80B4-6421913EF44A}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
